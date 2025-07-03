@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://ckt0c6fp10jdu"]
+[gd_scene load_steps=3 format=3 uid="uid://ckt0c6fp10jdu"]
 
-[ext_resource type="Texture2D" uid="uid://besflbqsev56j" path="res://assets/Maps/Dungeons/Lost_At_Sea/Boat/boat_player_ground.svg" id="1_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://dtcag2jdywot6" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="Texture2D" uid="uid://bcvieh8q6ts5g" path="res://assets/Maps/Dungeons/Lost_At_Sea/Boat/boat_side_look.svg" id="2_lbhrr"]
+[ext_resource type="Texture2D" uid="uid://co3v1d53j827o" path="res://assets/Maps/Zones/Level_Home/Level_Home.svg" id="1_yqjtg"]
 
 [node name="Game" type="Node2D"]
 
@@ -14,15 +13,11 @@ position = Vector2(-212, -117)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 build_mode = 1
-polygon = PackedVector2Array(71, 45, 169, 65, 189, 125, 298, 124, 525, 21, 732, 124, 793, 113, 794, 65, 863, 48, 778, -312, 430, -338, 319, -453, 170.539, -482.419, 102, -496, 0, -443, 20, -171, 89, -191, 147, -157)
+polygon = PackedVector2Array(71, 45, 169, 65, 189, 125, 298, 124, 521, 153, 732, 124, 793, 113, 794, 65, 863, 48, 778, -312, 430, -338, 319, -453, 170.539, -482.419, 102, -496, 0, -443, 20, -171, 89, -191, 147, -157)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(207, -109.5)
-texture = ExtResource("1_lnu2h")
-
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(265, -99.5)
-texture = ExtResource("2_lbhrr")
+texture = ExtResource("1_yqjtg")
 
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
 position = Vector2(-101, 0)

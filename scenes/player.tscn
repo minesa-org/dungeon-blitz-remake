@@ -1,70 +1,107 @@
-[gd_scene load_steps=68 format=3 uid="uid://dtcag2jdywot6"]
+[gd_scene load_steps=105 format=3 uid="uid://dtcag2jdywot6"]
 
-[ext_resource type="Texture2D" uid="uid://x2f2e0ja7joi" path="res://assets/Player/Rogue/1.png" id="1_stxmr"]
+[ext_resource type="Texture2D" uid="uid://x2f2e0ja7joi" path="res://assets/Player/Rogue/ready/loop/1.png" id="1_stxmr"]
 [ext_resource type="Script" uid="uid://b7oxa26iws5hc" path="res://scripts/player.gd" id="1_tk41t"]
-[ext_resource type="Texture2D" uid="uid://cui5w1itpbc2s" path="res://assets/Player/Rogue/2.png" id="2_682xl"]
-[ext_resource type="Texture2D" uid="uid://leay51m44vcw" path="res://assets/Player/Rogue/3.png" id="3_51ujp"]
-[ext_resource type="Texture2D" uid="uid://dkev8lgj1tcqv" path="res://assets/Player/Rogue/4.png" id="4_tk41t"]
-[ext_resource type="Texture2D" uid="uid://df7ibsskjfth3" path="res://assets/Player/Rogue/5.png" id="5_fuw3a"]
-[ext_resource type="Texture2D" uid="uid://bqsc5ksfhse1g" path="res://assets/Player/Rogue/6.png" id="6_8txt3"]
-[ext_resource type="Texture2D" uid="uid://c6u4utg46h0x0" path="res://assets/Player/Rogue/7.png" id="7_2w11d"]
-[ext_resource type="Texture2D" uid="uid://78dknnl5ex68" path="res://assets/Player/Rogue/8.png" id="8_770dr"]
-[ext_resource type="Texture2D" uid="uid://xsn1xunmw7px" path="res://assets/Player/Rogue/9.png" id="9_8f1cb"]
-[ext_resource type="Texture2D" uid="uid://b1cvvp5janlgn" path="res://assets/Player/Rogue/10.png" id="10_vdulj"]
-[ext_resource type="Texture2D" uid="uid://cg1bu8ph02vfe" path="res://assets/Player/Rogue/11.png" id="11_vau08"]
-[ext_resource type="Texture2D" uid="uid://cgbaspw1pt07f" path="res://assets/Player/Rogue/12.png" id="12_qsb7e"]
-[ext_resource type="Texture2D" uid="uid://dsmqkiv6wdkdt" path="res://assets/Player/Rogue/13.png" id="13_qjsmb"]
-[ext_resource type="Texture2D" uid="uid://c15g76x83et8d" path="res://assets/Player/Rogue/14.png" id="14_mwp2n"]
-[ext_resource type="Texture2D" uid="uid://bhv0copvfvyb7" path="res://assets/Player/Rogue/15.png" id="15_0yhus"]
-[ext_resource type="Texture2D" uid="uid://cpnrpi3rugvvi" path="res://assets/Player/Rogue/16.png" id="16_jlll7"]
-[ext_resource type="Texture2D" uid="uid://cggglqxa4axy3" path="res://assets/Player/Rogue/17.png" id="17_qk6i7"]
-[ext_resource type="Texture2D" uid="uid://dd0kutahdkaku" path="res://assets/Player/Rogue/18.png" id="18_6c3st"]
-[ext_resource type="Texture2D" uid="uid://bwitgm3ch1jcb" path="res://assets/Player/Rogue/19.png" id="19_1da1t"]
-[ext_resource type="Texture2D" uid="uid://cg5bx3ijfa4av" path="res://assets/Player/Rogue/20.png" id="20_p21yu"]
-[ext_resource type="Texture2D" uid="uid://cg1uy1gxfkq8r" path="res://assets/Player/Rogue/21.png" id="21_irpag"]
-[ext_resource type="Texture2D" uid="uid://crqac37gy8sjh" path="res://assets/Player/Rogue/22.png" id="22_bpsgo"]
-[ext_resource type="Texture2D" uid="uid://d3arou6hnj6er" path="res://assets/Player/Rogue/23.png" id="23_jx8is"]
-[ext_resource type="Texture2D" uid="uid://cn7c8be5xqp0j" path="res://assets/Player/Rogue/24.png" id="24_vx63k"]
-[ext_resource type="Texture2D" uid="uid://ci00b23jg7a57" path="res://assets/Player/Rogue/25.png" id="25_lw0jh"]
-[ext_resource type="Texture2D" uid="uid://dr60bmt5fb35a" path="res://assets/Player/Rogue/26.png" id="26_ry8ed"]
-[ext_resource type="Texture2D" uid="uid://cp753p1pxsn1l" path="res://assets/Player/Rogue/27.png" id="27_au8ao"]
-[ext_resource type="Texture2D" uid="uid://b7ms3wdfnqg86" path="res://assets/Player/Rogue/28.png" id="28_w5j5w"]
-[ext_resource type="Texture2D" uid="uid://dqg2r113go17x" path="res://assets/Player/Rogue/29.png" id="29_cbf1i"]
-[ext_resource type="Texture2D" uid="uid://ct37w82j4bnie" path="res://assets/Player/Rogue/30.png" id="30_4vfid"]
-[ext_resource type="Texture2D" uid="uid://bvmrytrvw3xgx" path="res://assets/Player/Rogue/31.png" id="31_ljgr3"]
-[ext_resource type="Texture2D" uid="uid://2kli1hd7nacd" path="res://assets/Player/Rogue/32.png" id="32_fr8ja"]
-[ext_resource type="Texture2D" uid="uid://btnlivi3xjyor" path="res://assets/Player/Rogue/33.png" id="33_gvmy4"]
-[ext_resource type="Texture2D" uid="uid://b6fsmpxweesw7" path="res://assets/Player/Rogue/34.png" id="34_fcu33"]
-[ext_resource type="Texture2D" uid="uid://bqfybeq0qk2vc" path="res://assets/Player/Rogue/35.png" id="35_qmsq4"]
-[ext_resource type="Texture2D" uid="uid://ba6pitnjklsyf" path="res://assets/Player/Rogue/36.png" id="36_5vs2b"]
-[ext_resource type="Texture2D" uid="uid://bht1aimboqlph" path="res://assets/Player/Rogue/37.png" id="37_a7i4v"]
-[ext_resource type="Texture2D" uid="uid://b8yfhco50eevv" path="res://assets/Player/Rogue/38.png" id="38_b5l0c"]
-[ext_resource type="Texture2D" uid="uid://ccit2a14kriwl" path="res://assets/Player/Rogue/39.png" id="39_2a33p"]
-[ext_resource type="Texture2D" uid="uid://b5k7su8ajo21s" path="res://assets/Player/Rogue/40.png" id="40_reqs7"]
-[ext_resource type="Texture2D" uid="uid://ckeanfkoytfvp" path="res://assets/Player/Rogue/41.png" id="41_2yjfb"]
-[ext_resource type="Texture2D" uid="uid://seoqqo8mq3se" path="res://assets/Player/Rogue/42.png" id="42_dnnjp"]
-[ext_resource type="Texture2D" uid="uid://dohjc7p0p7p4l" path="res://assets/Player/Rogue/43.png" id="43_wqna8"]
-[ext_resource type="Texture2D" uid="uid://ditdonn2401qt" path="res://assets/Player/Rogue/44.png" id="44_l7gmo"]
-[ext_resource type="Texture2D" uid="uid://c2xr3amksqplk" path="res://assets/Player/Rogue/45.png" id="45_kft7l"]
-[ext_resource type="Texture2D" uid="uid://chndhmd7y8lfm" path="res://assets/Player/Rogue/46.png" id="46_2s4os"]
-[ext_resource type="Texture2D" uid="uid://is5ilhhcb77f" path="res://assets/Player/Rogue/47.png" id="47_2em0j"]
-[ext_resource type="Texture2D" uid="uid://bkqq3crfkv2qm" path="res://assets/Player/Rogue/48.png" id="48_qe2k6"]
-[ext_resource type="Texture2D" uid="uid://b07cqgf6o2vn6" path="res://assets/Player/Rogue/49.png" id="49_edwuo"]
-[ext_resource type="Texture2D" uid="uid://dmg8kd4anq24n" path="res://assets/Player/Rogue/50.png" id="50_5eiju"]
-[ext_resource type="Texture2D" uid="uid://skt3cfp6ob7j" path="res://assets/Player/Rogue/51.png" id="51_uukdq"]
-[ext_resource type="Texture2D" uid="uid://dk2klqus3htlk" path="res://assets/Player/Rogue/52.png" id="52_3k3j0"]
-[ext_resource type="Texture2D" uid="uid://c2ywcccdbg41v" path="res://assets/Player/Rogue/53.png" id="53_0bpox"]
-[ext_resource type="Texture2D" uid="uid://cy2bilq1nrdqt" path="res://assets/Player/Rogue/54.png" id="54_5c21n"]
-[ext_resource type="Texture2D" uid="uid://ce5eqs1a6y1kw" path="res://assets/Player/Rogue/55.png" id="55_e8m1u"]
-[ext_resource type="Texture2D" uid="uid://c2v0cfwhummc6" path="res://assets/Player/Rogue/56.png" id="56_77pet"]
-[ext_resource type="Texture2D" uid="uid://dd8q3pyh0u2sc" path="res://assets/Player/Rogue/57.png" id="57_tlhxf"]
-[ext_resource type="Texture2D" uid="uid://dkgpo6oiafwkt" path="res://assets/Player/Rogue/58.png" id="58_hrkfm"]
-[ext_resource type="Texture2D" uid="uid://d3nrsl3i64j66" path="res://assets/Player/Rogue/59.png" id="59_oxcmq"]
-[ext_resource type="Texture2D" uid="uid://drf51m2mpyk3r" path="res://assets/Player/Rogue/60.png" id="60_wylla"]
-[ext_resource type="Texture2D" uid="uid://dv60o8oevj7dh" path="res://assets/Player/Rogue/61.png" id="61_a3eqm"]
-[ext_resource type="Texture2D" uid="uid://cnatqrep6xp55" path="res://assets/Player/Rogue/62.png" id="62_plx2b"]
-[ext_resource type="Texture2D" uid="uid://bbnoiyj3x1s64" path="res://assets/Player/Rogue/63.png" id="63_3capk"]
-[ext_resource type="Texture2D" uid="uid://h7tk5fh6b4lo" path="res://assets/Player/Rogue/64.png" id="64_kg5hq"]
+[ext_resource type="Texture2D" uid="uid://cui5w1itpbc2s" path="res://assets/Player/Rogue/ready/loop/2.png" id="2_682xl"]
+[ext_resource type="Texture2D" uid="uid://leay51m44vcw" path="res://assets/Player/Rogue/ready/loop/3.png" id="3_51ujp"]
+[ext_resource type="Texture2D" uid="uid://dkev8lgj1tcqv" path="res://assets/Player/Rogue/ready/loop/4.png" id="4_tk41t"]
+[ext_resource type="Texture2D" uid="uid://df7ibsskjfth3" path="res://assets/Player/Rogue/ready/loop/5.png" id="5_fuw3a"]
+[ext_resource type="Texture2D" uid="uid://bqsc5ksfhse1g" path="res://assets/Player/Rogue/ready/loop/6.png" id="6_8txt3"]
+[ext_resource type="Texture2D" uid="uid://c6u4utg46h0x0" path="res://assets/Player/Rogue/ready/loop/7.png" id="7_2w11d"]
+[ext_resource type="Texture2D" uid="uid://78dknnl5ex68" path="res://assets/Player/Rogue/ready/loop/8.png" id="8_770dr"]
+[ext_resource type="Texture2D" uid="uid://xsn1xunmw7px" path="res://assets/Player/Rogue/ready/loop/9.png" id="9_8f1cb"]
+[ext_resource type="Texture2D" uid="uid://b1cvvp5janlgn" path="res://assets/Player/Rogue/ready/loop/10.png" id="10_vdulj"]
+[ext_resource type="Texture2D" uid="uid://cg1bu8ph02vfe" path="res://assets/Player/Rogue/ready/loop/11.png" id="11_vau08"]
+[ext_resource type="Texture2D" uid="uid://cgbaspw1pt07f" path="res://assets/Player/Rogue/ready/loop/12.png" id="12_qsb7e"]
+[ext_resource type="Texture2D" uid="uid://dsmqkiv6wdkdt" path="res://assets/Player/Rogue/ready/loop/13.png" id="13_qjsmb"]
+[ext_resource type="Texture2D" uid="uid://c15g76x83et8d" path="res://assets/Player/Rogue/ready/loop/14.png" id="14_mwp2n"]
+[ext_resource type="Texture2D" uid="uid://bhv0copvfvyb7" path="res://assets/Player/Rogue/ready/loop/15.png" id="15_0yhus"]
+[ext_resource type="Texture2D" uid="uid://cpnrpi3rugvvi" path="res://assets/Player/Rogue/ready/loop/16.png" id="16_jlll7"]
+[ext_resource type="Texture2D" uid="uid://cggglqxa4axy3" path="res://assets/Player/Rogue/ready/loop/17.png" id="17_qk6i7"]
+[ext_resource type="Texture2D" uid="uid://dd0kutahdkaku" path="res://assets/Player/Rogue/ready/loop/18.png" id="18_6c3st"]
+[ext_resource type="Texture2D" uid="uid://bwitgm3ch1jcb" path="res://assets/Player/Rogue/ready/loop/19.png" id="19_1da1t"]
+[ext_resource type="Texture2D" uid="uid://cg5bx3ijfa4av" path="res://assets/Player/Rogue/ready/loop/20.png" id="20_p21yu"]
+[ext_resource type="Texture2D" uid="uid://cg1uy1gxfkq8r" path="res://assets/Player/Rogue/ready/loop/21.png" id="21_irpag"]
+[ext_resource type="Texture2D" uid="uid://crqac37gy8sjh" path="res://assets/Player/Rogue/ready/loop/22.png" id="22_bpsgo"]
+[ext_resource type="Texture2D" uid="uid://d3arou6hnj6er" path="res://assets/Player/Rogue/ready/loop/23.png" id="23_jx8is"]
+[ext_resource type="Texture2D" uid="uid://cn7c8be5xqp0j" path="res://assets/Player/Rogue/ready/loop/24.png" id="24_vx63k"]
+[ext_resource type="Texture2D" uid="uid://ci00b23jg7a57" path="res://assets/Player/Rogue/ready/loop/25.png" id="25_lw0jh"]
+[ext_resource type="Texture2D" uid="uid://dr60bmt5fb35a" path="res://assets/Player/Rogue/ready/loop/26.png" id="26_ry8ed"]
+[ext_resource type="Texture2D" uid="uid://cp753p1pxsn1l" path="res://assets/Player/Rogue/ready/loop/27.png" id="27_au8ao"]
+[ext_resource type="Texture2D" uid="uid://b7ms3wdfnqg86" path="res://assets/Player/Rogue/ready/loop/28.png" id="28_w5j5w"]
+[ext_resource type="Texture2D" uid="uid://dqg2r113go17x" path="res://assets/Player/Rogue/ready/loop/29.png" id="29_cbf1i"]
+[ext_resource type="Texture2D" uid="uid://ct37w82j4bnie" path="res://assets/Player/Rogue/ready/loop/30.png" id="30_4vfid"]
+[ext_resource type="Texture2D" uid="uid://bvmrytrvw3xgx" path="res://assets/Player/Rogue/ready/loop/31.png" id="31_ljgr3"]
+[ext_resource type="Texture2D" uid="uid://2kli1hd7nacd" path="res://assets/Player/Rogue/ready/loop/32.png" id="32_fr8ja"]
+[ext_resource type="Texture2D" uid="uid://btnlivi3xjyor" path="res://assets/Player/Rogue/ready/loop/33.png" id="33_gvmy4"]
+[ext_resource type="Texture2D" uid="uid://b6fsmpxweesw7" path="res://assets/Player/Rogue/ready/loop/34.png" id="34_fcu33"]
+[ext_resource type="Texture2D" uid="uid://bqfybeq0qk2vc" path="res://assets/Player/Rogue/ready/loop/35.png" id="35_qmsq4"]
+[ext_resource type="Texture2D" uid="uid://ba6pitnjklsyf" path="res://assets/Player/Rogue/ready/loop/36.png" id="36_5vs2b"]
+[ext_resource type="Texture2D" uid="uid://bht1aimboqlph" path="res://assets/Player/Rogue/ready/loop/37.png" id="37_a7i4v"]
+[ext_resource type="Texture2D" uid="uid://b8yfhco50eevv" path="res://assets/Player/Rogue/ready/loop/38.png" id="38_b5l0c"]
+[ext_resource type="Texture2D" uid="uid://ccit2a14kriwl" path="res://assets/Player/Rogue/ready/loop/39.png" id="39_2a33p"]
+[ext_resource type="Texture2D" uid="uid://b5k7su8ajo21s" path="res://assets/Player/Rogue/ready/loop/40.png" id="40_reqs7"]
+[ext_resource type="Texture2D" uid="uid://ckeanfkoytfvp" path="res://assets/Player/Rogue/ready/loop/41.png" id="41_2yjfb"]
+[ext_resource type="Texture2D" uid="uid://seoqqo8mq3se" path="res://assets/Player/Rogue/ready/loop/42.png" id="42_dnnjp"]
+[ext_resource type="Texture2D" uid="uid://dohjc7p0p7p4l" path="res://assets/Player/Rogue/ready/loop/43.png" id="43_wqna8"]
+[ext_resource type="Texture2D" uid="uid://ditdonn2401qt" path="res://assets/Player/Rogue/ready/loop/44.png" id="44_l7gmo"]
+[ext_resource type="Texture2D" uid="uid://c2xr3amksqplk" path="res://assets/Player/Rogue/ready/loop/45.png" id="45_kft7l"]
+[ext_resource type="Texture2D" uid="uid://chndhmd7y8lfm" path="res://assets/Player/Rogue/ready/loop/46.png" id="46_2s4os"]
+[ext_resource type="Texture2D" uid="uid://is5ilhhcb77f" path="res://assets/Player/Rogue/ready/loop/47.png" id="47_2em0j"]
+[ext_resource type="Texture2D" uid="uid://bkqq3crfkv2qm" path="res://assets/Player/Rogue/ready/loop/48.png" id="48_qe2k6"]
+[ext_resource type="Texture2D" uid="uid://b07cqgf6o2vn6" path="res://assets/Player/Rogue/ready/loop/49.png" id="49_edwuo"]
+[ext_resource type="Texture2D" uid="uid://dmg8kd4anq24n" path="res://assets/Player/Rogue/ready/loop/50.png" id="50_5eiju"]
+[ext_resource type="Texture2D" uid="uid://skt3cfp6ob7j" path="res://assets/Player/Rogue/ready/loop/51.png" id="51_uukdq"]
+[ext_resource type="Texture2D" uid="uid://dk2klqus3htlk" path="res://assets/Player/Rogue/ready/loop/52.png" id="52_3k3j0"]
+[ext_resource type="Texture2D" uid="uid://c2ywcccdbg41v" path="res://assets/Player/Rogue/ready/loop/53.png" id="53_0bpox"]
+[ext_resource type="Texture2D" uid="uid://cy2bilq1nrdqt" path="res://assets/Player/Rogue/ready/loop/54.png" id="54_5c21n"]
+[ext_resource type="Texture2D" uid="uid://ce5eqs1a6y1kw" path="res://assets/Player/Rogue/ready/loop/55.png" id="55_e8m1u"]
+[ext_resource type="Texture2D" uid="uid://c2v0cfwhummc6" path="res://assets/Player/Rogue/ready/loop/56.png" id="56_77pet"]
+[ext_resource type="Texture2D" uid="uid://dd8q3pyh0u2sc" path="res://assets/Player/Rogue/ready/loop/57.png" id="57_tlhxf"]
+[ext_resource type="Texture2D" uid="uid://dkgpo6oiafwkt" path="res://assets/Player/Rogue/ready/loop/58.png" id="58_hrkfm"]
+[ext_resource type="Texture2D" uid="uid://d3nrsl3i64j66" path="res://assets/Player/Rogue/ready/loop/59.png" id="59_oxcmq"]
+[ext_resource type="Texture2D" uid="uid://drf51m2mpyk3r" path="res://assets/Player/Rogue/ready/loop/60.png" id="60_wylla"]
+[ext_resource type="Texture2D" uid="uid://dv60o8oevj7dh" path="res://assets/Player/Rogue/ready/loop/61.png" id="61_a3eqm"]
+[ext_resource type="Texture2D" uid="uid://cnatqrep6xp55" path="res://assets/Player/Rogue/ready/loop/62.png" id="62_plx2b"]
+[ext_resource type="Texture2D" uid="uid://bbnoiyj3x1s64" path="res://assets/Player/Rogue/ready/loop/63.png" id="63_3capk"]
+[ext_resource type="Texture2D" uid="uid://h7tk5fh6b4lo" path="res://assets/Player/Rogue/ready/loop/64.png" id="64_kg5hq"]
+[ext_resource type="Texture2D" uid="uid://dl0cp6nqvcl24" path="res://assets/Player/Rogue/run/end/583.png" id="66_2yjfb"]
+[ext_resource type="Texture2D" uid="uid://bcsfhxcta8s3o" path="res://assets/Player/Rogue/run/end/584.png" id="67_dnnjp"]
+[ext_resource type="Texture2D" uid="uid://ct3p4836gormf" path="res://assets/Player/Rogue/run/end/585.png" id="68_wqna8"]
+[ext_resource type="Texture2D" uid="uid://jm17ey4gf2tc" path="res://assets/Player/Rogue/run/end/586.png" id="69_l7gmo"]
+[ext_resource type="Texture2D" uid="uid://xbop2lsflh8v" path="res://assets/Player/Rogue/run/end/587.png" id="70_kft7l"]
+[ext_resource type="Texture2D" uid="uid://dj8eb5su7if8t" path="res://assets/Player/Rogue/run/end/588.png" id="71_2s4os"]
+[ext_resource type="Texture2D" uid="uid://chqiraai302w7" path="res://assets/Player/Rogue/run/end/589.png" id="72_2em0j"]
+[ext_resource type="Texture2D" uid="uid://07s4yv5ac2qk" path="res://assets/Player/Rogue/run/end/590.png" id="73_qe2k6"]
+[ext_resource type="Texture2D" uid="uid://djy62umtj4j0p" path="res://assets/Player/Rogue/run/end/591.png" id="74_edwuo"]
+[ext_resource type="Texture2D" uid="uid://ck64txpfmyb7c" path="res://assets/Player/Rogue/run/end/592.png" id="75_5eiju"]
+[ext_resource type="Texture2D" uid="uid://m8hmorkmrp33" path="res://assets/Player/Rogue/run/end/593.png" id="76_uukdq"]
+[ext_resource type="Texture2D" uid="uid://dmh4dh2tdapl8" path="res://assets/Player/Rogue/run/end/594.png" id="77_3k3j0"]
+[ext_resource type="Texture2D" uid="uid://sk3rnboieij" path="res://assets/Player/Rogue/run/end/595.png" id="78_0bpox"]
+[ext_resource type="Texture2D" uid="uid://xgabv46vi8nd" path="res://assets/Player/Rogue/run/loop/567.png" id="79_5c21n"]
+[ext_resource type="Texture2D" uid="uid://bqy7ljslgasc0" path="res://assets/Player/Rogue/run/loop/568.png" id="80_e8m1u"]
+[ext_resource type="Texture2D" uid="uid://ovkeixy5d1un" path="res://assets/Player/Rogue/run/loop/569.png" id="81_77pet"]
+[ext_resource type="Texture2D" uid="uid://chu1lc30uxct7" path="res://assets/Player/Rogue/run/loop/570.png" id="82_tlhxf"]
+[ext_resource type="Texture2D" uid="uid://bphghw608uy78" path="res://assets/Player/Rogue/run/loop/571.png" id="83_hrkfm"]
+[ext_resource type="Texture2D" uid="uid://ddtxetk4slgh3" path="res://assets/Player/Rogue/run/loop/572.png" id="84_oxcmq"]
+[ext_resource type="Texture2D" uid="uid://biqihoadtw0ph" path="res://assets/Player/Rogue/run/loop/573.png" id="85_wylla"]
+[ext_resource type="Texture2D" uid="uid://d3wubc0u15oxd" path="res://assets/Player/Rogue/run/loop/574.png" id="86_a3eqm"]
+[ext_resource type="Texture2D" uid="uid://dmsqfsii5pqt4" path="res://assets/Player/Rogue/run/loop/575.png" id="87_plx2b"]
+[ext_resource type="Texture2D" uid="uid://b507b3pnxcbxi" path="res://assets/Player/Rogue/run/loop/576.png" id="88_3capk"]
+[ext_resource type="Texture2D" uid="uid://b7wimlckdjfg2" path="res://assets/Player/Rogue/run/loop/577.png" id="89_kg5hq"]
+[ext_resource type="Texture2D" uid="uid://dexoykdlk0frv" path="res://assets/Player/Rogue/run/loop/578.png" id="90_kp0if"]
+[ext_resource type="Texture2D" uid="uid://c2t0pu7ppg8qm" path="res://assets/Player/Rogue/run/loop/579.png" id="91_2xkbm"]
+[ext_resource type="Texture2D" uid="uid://njyr8kx4732i" path="res://assets/Player/Rogue/run/loop/580.png" id="92_dqoq3"]
+[ext_resource type="Texture2D" uid="uid://dery60ok57a51" path="res://assets/Player/Rogue/run/loop/581.png" id="93_y8tjj"]
+[ext_resource type="Texture2D" uid="uid://ph7nqtl2uqvc" path="res://assets/Player/Rogue/run/loop/582.png" id="94_6ptwb"]
+[ext_resource type="Texture2D" uid="uid://c68o652vcxk47" path="res://assets/Player/Rogue/run/start/559.png" id="95_8pj6w"]
+[ext_resource type="Texture2D" uid="uid://cwnx5xcvdhiw2" path="res://assets/Player/Rogue/run/start/560.png" id="96_08upi"]
+[ext_resource type="Texture2D" uid="uid://2ksos3m7xbk8" path="res://assets/Player/Rogue/run/start/561.png" id="97_4tsya"]
+[ext_resource type="Texture2D" uid="uid://b2bgqoclmi12b" path="res://assets/Player/Rogue/run/start/562.png" id="98_68qdx"]
+[ext_resource type="Texture2D" uid="uid://yisy310secry" path="res://assets/Player/Rogue/run/start/563.png" id="99_ccnn6"]
+[ext_resource type="Texture2D" uid="uid://c4db2sghq7giu" path="res://assets/Player/Rogue/run/start/564.png" id="100_mcvyg"]
+[ext_resource type="Texture2D" uid="uid://esyinf13b4qp" path="res://assets/Player/Rogue/run/start/565.png" id="101_ealyq"]
+[ext_resource type="Texture2D" uid="uid://dntoewl0xf4x0" path="res://assets/Player/Rogue/run/start/566.png" id="102_qms75"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_kp0if"]
 animations = [{
@@ -262,12 +299,138 @@ animations = [{
 "texture": ExtResource("64_kg5hq")
 }],
 "loop": true,
-"name": &"rogue_idle",
+"name": &"rogue_ready_loop",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("66_2yjfb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_dnnjp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_wqna8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_l7gmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_kft7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_2s4os")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_2em0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_qe2k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_edwuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_5eiju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_uukdq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_3k3j0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_0bpox")
+}],
+"loop": true,
+"name": &"rogue_run_end",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("79_5c21n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_e8m1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_77pet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_tlhxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_hrkfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_oxcmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_wylla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_a3eqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_plx2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_3capk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_kg5hq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_kp0if")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_2xkbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_dqoq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_y8tjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_6ptwb")
+}],
+"loop": true,
+"name": &"rogue_run_loop",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("95_8pj6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_08upi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_4tsya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_68qdx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_ccnn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_mcvyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_ealyq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_qms75")
+}],
+"loop": true,
+"name": &"rogue_run_start",
 "speed": 30.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4g1h8"]
-size = Vector2(39, 78)
+size = Vector2(48, 81)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_tk41t")
@@ -276,10 +439,11 @@ script = ExtResource("1_tk41t")
 position = Vector2(125, -87)
 scale = Vector2(0.768388, 0.763514)
 sprite_frames = SubResource("SpriteFrames_kp0if")
-animation = &"rogue_idle"
-autoplay = "rogue_idle"
-frame_progress = 0.180914
+animation = &"rogue_ready_loop"
+autoplay = "rogue_ready_loop"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(100.5, -43)
+position = Vector2(109, -41)
 shape = SubResource("RectangleShape2D_4g1h8")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
