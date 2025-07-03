@@ -1,0 +1,51 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in the game
+labels: [bug]
+title: "[BUG] "
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: "Please fill in all sections to help us fix your bug quickly!"
+  - type: input
+    id: summary
+    attributes:
+      label: Short Summary
+      description: Brief description of the bug
+      placeholder: Game crashes when loading a save.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Which platform are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Web
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List steps to reproduce the bug.
+      placeholder: |
+        1. Open the game
+        2. Click on "Load Game"
+        3. ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: tried-solutions
+    attributes:
+      label: What have you tried?
+      options:
+        - label: Restarted the game
+        - label: Checked for updates
+        - label: Reinstalled the game
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Information
