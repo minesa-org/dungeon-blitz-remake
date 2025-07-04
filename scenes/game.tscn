@@ -1,24 +1,60 @@
-[gd_scene load_steps=3 format=3 uid="uid://ckt0c6fp10jdu"]
+[gd_scene load_steps=4 format=3 uid="uid://ckt0c6fp10jdu"]
 
 [ext_resource type="PackedScene" uid="uid://dtcag2jdywot6" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="Texture2D" uid="uid://co3v1d53j827o" path="res://assets/Maps/Zones/Level_Home/Level_Home.svg" id="1_yqjtg"]
+[ext_resource type="Texture2D" uid="uid://cl3v3o8b63lee" path="res://assets/Maps/Zones/Level_Home/Level_Home 19.50.39.svg" id="1_yqjtg"]
+[ext_resource type="Texture2D" uid="uid://bua5m3hgbqwkk" path="res://assets/Maps/Zones/Level_Home/otlar.png" id="3_lnu2h"]
 
 [node name="Game" type="Node2D"]
-
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(0.8, 0.8)
+position = Vector2(-621, -110)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(-212, -117)
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+[node name="craftTown_path1" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(212, 117)
 build_mode = 1
-polygon = PackedVector2Array(71, 45, 169, 65, 189, 125, 298, 124, 521, 153, 732, 124, 793, 113, 794, 65, 863, 48, 778, -312, 430, -338, 319, -453, 170.539, -482.419, 102, -496, 0, -443, 20, -171, 89, -191, 147, -157)
+polygon = PackedVector2Array(-801, -437, -801, -98, -640, -57, -343, -17, -221, -17, -3, -37, 42, -37, 557, 41, 977, 43, 1279, 22, 1438, -17, 1579, -37, 1723, -37, 1895, 41, 2097, 62, 2581, 63, 3115, 43, 3601, 3, 4363, 23, 4519, 23, 4679, -17, 4679, -338)
+one_way_collision_margin = 0.0
+
+[node name="craftTown_path2" type="CollisionPolygon2D" parent="StaticBody2D"]
+build_mode = 1
+polygon = PackedVector2Array(-4929, -141, -4929, 399, -4649, 479, -4191, 460, -3654, 401, -3006, 220, -1209, 119, -848, -21, -849, -462)
+one_way_collision_margin = 0.0
+
+[node name="craft_platform" type="CollisionPolygon2D" parent="StaticBody2D"]
+build_mode = 1
+polygon = PackedVector2Array(2911, 61, 2773, 79, 2711, 120, 2591, 160, 2711, 120, 2773, 79)
+one_way_collision = true
+
+[node name="guild_platform" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(771, 20, 908, 99, 1051, 140, 908, 101)
+one_way_collision = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(207, -109.5)
 texture = ExtResource("1_yqjtg")
+metadata/_edit_lock_ = true
+
+[node name="otlar" type="Sprite2D" parent="."]
+clip_children = 2
+light_mask = 2
+position = Vector2(1746, 28)
+texture = ExtResource("3_lnu2h")
 
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(-101, 0)
-scale = Vector2(1.25, 1.25)
+position = Vector2(2004, 23)
+scale = Vector2(1.5, 1.5)
+metadata/_edit_lock_ = true
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(106.667, -44.6667)
+scale = Vector2(0.666667, 0.666667)
+process_callback = 0
+limit_left = -1500
+limit_top = -500
+limit_right = 4150
+limit_bottom = -10
+limit_smoothed = true
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+editor_draw_limits = true
