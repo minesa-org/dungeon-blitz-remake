@@ -1,60 +1,127 @@
-[gd_scene load_steps=4 format=3 uid="uid://ckt0c6fp10jdu"]
+[gd_scene load_steps=9 format=3 uid="uid://ckt0c6fp10jdu"]
 
+[ext_resource type="Texture2D" uid="uid://dy16jijpd5m2t" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_sky.png" id="1_gee14"]
 [ext_resource type="PackedScene" uid="uid://dtcag2jdywot6" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="Texture2D" uid="uid://cl3v3o8b63lee" path="res://assets/Maps/Zones/Level_Home/Level_Home 19.50.39.svg" id="1_yqjtg"]
-[ext_resource type="Texture2D" uid="uid://bua5m3hgbqwkk" path="res://assets/Maps/Zones/Level_Home/otlar.png" id="3_lnu2h"]
+[ext_resource type="Texture2D" uid="uid://cl3v3o8b63lee" path="res://assets/Maps/Zones/Level_Home/home_main.svg" id="1_yqjtg"]
+[ext_resource type="Texture2D" uid="uid://vvjdpb6hsw47" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_mountain.png" id="2_0tnpc"]
+[ext_resource type="Texture2D" uid="uid://bua5m3hgbqwkk" path="res://assets/Maps/Zones/Level_Home/herbs.png" id="3_lnu2h"]
+[ext_resource type="Texture2D" uid="uid://caleh6p0dc68a" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_lake.png" id="3_vtaks"]
+[ext_resource type="Texture2D" uid="uid://cnv46iiios7k6" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_gate.png" id="4_kvpfn"]
+[ext_resource type="Texture2D" uid="uid://dnq6qm0iy2otw" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_tree.png" id="5_dinhu"]
 
 [node name="Game" type="Node2D"]
 position = Vector2(-621, -110)
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(-4507, 212)
+motion_scale = Vector2(0.1, 0.1)
+motion_mirroring = Vector2(1440, 0)
+
+[node name="Sky" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(-243, -127)
+texture = ExtResource("1_gee14")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(-4125, 119)
+motion_scale = Vector2(0.2, 0.2)
+motion_mirroring = Vector2(3000, 0)
+
+[node name="Mountain" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2(-927, 33)
+texture = ExtResource("2_0tnpc")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(-4504, 300)
+motion_scale = Vector2(0.3, 0.3)
+motion_mirroring = Vector2(3000, 0)
+
+[node name="Lake" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+texture = ExtResource("3_vtaks")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(427, -327)
+motion_scale = Vector2(0.8, 1)
+
+[node name="Gate" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+texture = ExtResource("4_kvpfn")
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(1757, -237)
+motion_scale = Vector2(0.8, 1)
+
+[node name="Tree" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
+texture = ExtResource("5_dinhu")
+
+[node name="ParallaxLayer6" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(3856, -229)
+motion_scale = Vector2(0.8, 1)
+
+[node name="Tree" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer6"]
+texture = ExtResource("5_dinhu")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(-212, -117)
 
 [node name="craftTown_path1" type="CollisionPolygon2D" parent="StaticBody2D"]
-position = Vector2(212, 117)
+position = Vector2(495, 108)
 build_mode = 1
 polygon = PackedVector2Array(-801, -437, -801, -98, -640, -57, -343, -17, -221, -17, -3, -37, 42, -37, 557, 41, 977, 43, 1279, 22, 1438, -17, 1579, -37, 1723, -37, 1895, 41, 2097, 62, 2581, 63, 3115, 43, 3601, 3, 4363, 23, 4519, 23, 4679, -17, 4679, -338)
 one_way_collision_margin = 0.0
 
 [node name="craftTown_path2" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(267, 37)
 build_mode = 1
 polygon = PackedVector2Array(-4929, -141, -4929, 399, -4649, 479, -4191, 460, -3654, 401, -3006, 220, -1209, 119, -848, -21, -849, -462)
 one_way_collision_margin = 0.0
 
 [node name="craft_platform" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(283, -5)
 build_mode = 1
 polygon = PackedVector2Array(2911, 61, 2773, 79, 2711, 120, 2591, 160, 2711, 120, 2773, 79)
 one_way_collision = true
 
 [node name="guild_platform" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(307, 8)
 polygon = PackedVector2Array(771, 20, 908, 99, 1051, 140, 908, 101)
 one_way_collision = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(207, -109.5)
 texture = ExtResource("1_yqjtg")
-metadata/_edit_lock_ = true
-
-[node name="otlar" type="Sprite2D" parent="."]
-clip_children = 2
-light_mask = 2
-position = Vector2(1746, 28)
-texture = ExtResource("3_lnu2h")
 
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(2004, 23)
+position = Vector2(2010, 60)
 scale = Vector2(1.5, 1.5)
-metadata/_edit_lock_ = true
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(106.667, -44.6667)
 scale = Vector2(0.666667, 0.666667)
 process_callback = 0
-limit_left = -1500
-limit_top = -500
-limit_right = 4150
+limit_left = -1100
+limit_top = -725
+limit_right = 4425
 limit_bottom = -10
 limit_smoothed = true
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 editor_draw_limits = true
+
+[node name="Herb" type="Sprite2D" parent="."]
+clip_children = 2
+light_mask = 0
+visibility_layer = 512
+position = Vector2(2039, 53)
+texture = ExtResource("3_lnu2h")
+
+[node name="Herb parallax background" type="ParallaxBackground" parent="."]
+layer = 1
+
+[node name="ParallaxLayer8" type="ParallaxLayer" parent="Herb parallax background"]
+position = Vector2(-754, 66)
+motion_scale = Vector2(2, 1)
+motion_mirroring = Vector2(3000, 0)
+
+[node name="Tree" type="Sprite2D" parent="Herb parallax background/ParallaxLayer8"]
+texture = ExtResource("5_dinhu")
