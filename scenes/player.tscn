@@ -1,7 +1,7 @@
-[gd_scene load_steps=157 format=3 uid="uid://dtcag2jdywot6"]
+[gd_scene load_steps=155 format=3 uid="uid://dtcag2jdywot6"]
 
 [ext_resource type="Texture2D" uid="uid://x2f2e0ja7joi" path="res://assets/Player/Rogue/ready/loop/1.png" id="1_stxmr"]
-[ext_resource type="Script" uid="uid://b7oxa26iws5hc" path="res://scripts/player.gd" id="1_tk41t"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_tk41t"]
 [ext_resource type="Texture2D" uid="uid://cui5w1itpbc2s" path="res://assets/Player/Rogue/ready/loop/2.png" id="2_682xl"]
 [ext_resource type="Texture2D" uid="uid://slxncy2ggcg6" path="res://assets/Player/Rogue/jump/end/629.png" id="2_i18u8"]
 [ext_resource type="Texture2D" uid="uid://c7urjlpjtxr8u" path="res://assets/Player/Rogue/jump/end/630.png" id="3_46bxm"]
@@ -638,13 +638,9 @@ animations = [{
 "speed": 30.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_4g1h8"]
-size = Vector2(48, 81)
-
-[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_llmf1"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_qywrh"]
-radius = 6.33916
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_llmf1"]
+radius = 25.0
+height = 82.0
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_tk41t")
@@ -666,12 +662,4 @@ stream = ExtResource("103_dnnjp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(109, -41)
-shape = SubResource("RectangleShape2D_4g1h8")
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-show_behind_parent = true
-material = SubResource("CanvasItemMaterial_llmf1")
-position = Vector2(111, -5)
-scale = Vector2(-4.57474, 1.25624)
-shape = SubResource("CircleShape2D_qywrh")
-disabled = true
+shape = SubResource("CapsuleShape2D_llmf1")

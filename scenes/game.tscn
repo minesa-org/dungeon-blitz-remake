@@ -264,17 +264,19 @@ motion_mirroring = Vector2(3000, 0)
 texture = ExtResource("3_vtaks")
 
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(427, -327)
+position = Vector2(433, -379)
 motion_scale = Vector2(0.8, 1)
 
 [node name="Gate" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
 texture = ExtResource("4_kvpfn")
 
 [node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(1757, -237)
-motion_scale = Vector2(0.8, 1)
+position = Vector2(1362, 54)
+scale = Vector2(1.5, 1.5)
+motion_scale = Vector2(0.8, 0.8)
 
 [node name="Tree" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
+position = Vector2(-9, -111)
 texture = ExtResource("5_dinhu")
 
 [node name="ParallaxLayer6" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -300,17 +302,18 @@ polygon = PackedVector2Array(-4929, -141, -4929, 399, -4649, 479, -4191, 460, -3
 one_way_collision_margin = 0.0
 
 [node name="craft_platform" type="CollisionPolygon2D" parent="StaticBody2D"]
-position = Vector2(283, -5)
+position = Vector2(326, -45)
 build_mode = 1
-polygon = PackedVector2Array(2911, 61, 2773, 79, 2711, 120, 2591, 160, 2711, 120, 2773, 79)
+polygon = PackedVector2Array(2911, 61, 2758, 86, 2685, 142, 2638, 169, 2705, 141, 2758, 87)
 one_way_collision = true
 
 [node name="guild_platform" type="CollisionPolygon2D" parent="StaticBody2D"]
 position = Vector2(307, 8)
-polygon = PackedVector2Array(771, 20, 908, 99, 1051, 140, 908, 101)
+polygon = PackedVector2Array(803, -4, 907, 64, 1006, 96, 911, 63)
 one_way_collision = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 2
 position = Vector2(218, -142)
 texture = ExtResource("1_yqjtg")
 
@@ -326,7 +329,7 @@ process_callback = 0
 limit_left = -1100
 limit_top = -725
 limit_right = 4425
-limit_bottom = -10
+limit_bottom = -50
 limit_smoothed = true
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
