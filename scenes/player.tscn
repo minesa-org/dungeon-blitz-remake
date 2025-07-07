@@ -647,6 +647,7 @@ size = Vector2(48, 81)
 radius = 6.33916
 
 [node name="Player" type="CharacterBody2D"]
+slide_on_ceiling = false
 script = ExtResource("1_tk41t")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

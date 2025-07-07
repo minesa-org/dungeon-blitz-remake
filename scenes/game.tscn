@@ -264,8 +264,8 @@ motion_mirroring = Vector2(3000, 0)
 texture = ExtResource("3_vtaks")
 
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(427, -327)
-motion_scale = Vector2(0.8, 1)
+position = Vector2(440, -334)
+motion_scale = Vector2(0.9, 0.9)
 
 [node name="Gate" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
 texture = ExtResource("4_kvpfn")
