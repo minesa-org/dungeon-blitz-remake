@@ -1,0 +1,237 @@
+[gd_scene load_steps=55 format=3 uid="uid://cycqua6tcpyt5"]
+
+[ext_resource type="Texture2D" uid="uid://b48jck12cakki" path="res://assets/NPC/GuildTrainer/821.svg" id="1_r0ere"]
+[ext_resource type="Texture2D" uid="uid://bwjmrmicpxt1i" path="res://assets/NPC/GuildTrainer/822.svg" id="2_6p7t4"]
+[ext_resource type="Texture2D" uid="uid://blusvdsk26pdo" path="res://assets/NPC/GuildTrainer/823.svg" id="3_wfckq"]
+[ext_resource type="Texture2D" uid="uid://ccjigyxqq5lfq" path="res://assets/NPC/GuildTrainer/824.svg" id="4_s5a30"]
+[ext_resource type="Texture2D" uid="uid://b2itg4057rd6y" path="res://assets/NPC/GuildTrainer/825.svg" id="5_11n5i"]
+[ext_resource type="Texture2D" uid="uid://chsqvttav2slt" path="res://assets/NPC/GuildTrainer/826.svg" id="6_dru4o"]
+[ext_resource type="Texture2D" uid="uid://x42nptqlrgrh" path="res://assets/NPC/GuildTrainer/827.svg" id="7_ysb2i"]
+[ext_resource type="Texture2D" uid="uid://c5t8vuag0pwyg" path="res://assets/NPC/GuildTrainer/828.svg" id="8_klta3"]
+[ext_resource type="Texture2D" uid="uid://coogd2sr2ahda" path="res://assets/NPC/GuildTrainer/829.svg" id="9_4kjvt"]
+[ext_resource type="Texture2D" uid="uid://dxu7qfbn6lfwh" path="res://assets/NPC/GuildTrainer/830.svg" id="10_sl578"]
+[ext_resource type="Texture2D" uid="uid://bp4x8nu3xknw6" path="res://assets/NPC/GuildTrainer/831.svg" id="11_0qtqj"]
+[ext_resource type="Texture2D" uid="uid://c7pmr8jldpy8k" path="res://assets/NPC/GuildTrainer/832.svg" id="12_s6foe"]
+[ext_resource type="Texture2D" uid="uid://jofo7c2yy5h3" path="res://assets/NPC/GuildTrainer/833.svg" id="13_j1xg0"]
+[ext_resource type="Texture2D" uid="uid://b01ytjyg2r6fv" path="res://assets/NPC/GuildTrainer/834.svg" id="14_eg6g7"]
+[ext_resource type="Texture2D" uid="uid://r7am40w7b1e0" path="res://assets/NPC/GuildTrainer/835.svg" id="15_gm0tt"]
+[ext_resource type="Texture2D" uid="uid://dasp0aninxvps" path="res://assets/NPC/GuildTrainer/836.svg" id="16_nudmt"]
+[ext_resource type="Texture2D" uid="uid://ctb4l2x6ii1vd" path="res://assets/NPC/GuildTrainer/837.svg" id="17_o6tmk"]
+[ext_resource type="Texture2D" uid="uid://ct5ey8asxgf62" path="res://assets/NPC/GuildTrainer/838.svg" id="18_bcf4g"]
+[ext_resource type="Texture2D" uid="uid://ysy0liyv0766" path="res://assets/NPC/GuildTrainer/839.svg" id="19_7igni"]
+[ext_resource type="Texture2D" uid="uid://cj0shfnhnlbws" path="res://assets/NPC/GuildTrainer/840.svg" id="20_u6ypu"]
+[ext_resource type="Texture2D" uid="uid://bwtuam4eo83km" path="res://assets/NPC/GuildTrainer/841.svg" id="21_jarn4"]
+[ext_resource type="Texture2D" uid="uid://d3wn7r1t85yli" path="res://assets/NPC/GuildTrainer/842.svg" id="22_li4bl"]
+[ext_resource type="Texture2D" uid="uid://bumuvy660arj3" path="res://assets/NPC/GuildTrainer/843.svg" id="23_yf64o"]
+[ext_resource type="Texture2D" uid="uid://cqqxij1opbg5c" path="res://assets/NPC/GuildTrainer/844.svg" id="24_uj8qs"]
+[ext_resource type="Texture2D" uid="uid://5e5y6hdyraq0" path="res://assets/NPC/GuildTrainer/845.svg" id="25_wy854"]
+[ext_resource type="Texture2D" uid="uid://dmmgd7aw5em5" path="res://assets/NPC/GuildTrainer/846.svg" id="26_fk5hk"]
+[ext_resource type="Texture2D" uid="uid://dkgy1dcpcf0ft" path="res://assets/NPC/GuildTrainer/847.svg" id="27_dwvv8"]
+[ext_resource type="Texture2D" uid="uid://dy8dfqyiohwhg" path="res://assets/NPC/GuildTrainer/848.svg" id="28_x6iot"]
+[ext_resource type="Texture2D" uid="uid://dllxdv4ejh384" path="res://assets/NPC/GuildTrainer/849.svg" id="29_iods7"]
+[ext_resource type="Texture2D" uid="uid://pi542pdi47he" path="res://assets/NPC/GuildTrainer/850.svg" id="30_q3ta0"]
+[ext_resource type="Texture2D" uid="uid://bs27kn152gsmt" path="res://assets/NPC/GuildTrainer/851.svg" id="31_jvd1b"]
+[ext_resource type="Texture2D" uid="uid://bd3gobvbo8rwd" path="res://assets/NPC/GuildTrainer/852.svg" id="32_w414u"]
+[ext_resource type="Texture2D" uid="uid://bkja6pcjw6rlo" path="res://assets/NPC/GuildTrainer/853.svg" id="33_unelk"]
+[ext_resource type="Texture2D" uid="uid://cq8owug6g5cp3" path="res://assets/NPC/GuildTrainer/854.svg" id="34_vcf3u"]
+[ext_resource type="Texture2D" uid="uid://bn7ontvvm0py6" path="res://assets/NPC/GuildTrainer/855.svg" id="35_fknvs"]
+[ext_resource type="Texture2D" uid="uid://duawv7tbgpm2k" path="res://assets/NPC/GuildTrainer/856.svg" id="36_haecn"]
+[ext_resource type="Texture2D" uid="uid://bqqg2pffx4h4a" path="res://assets/NPC/GuildTrainer/857.svg" id="37_5j0vr"]
+[ext_resource type="Texture2D" uid="uid://caenlxmy1ql3q" path="res://assets/NPC/GuildTrainer/858.svg" id="38_yex7t"]
+[ext_resource type="Texture2D" uid="uid://dlhbtd5afcso4" path="res://assets/NPC/GuildTrainer/859.svg" id="39_gc0sn"]
+[ext_resource type="Texture2D" uid="uid://cbbnvcck4ik2l" path="res://assets/NPC/GuildTrainer/860.svg" id="40_dikom"]
+[ext_resource type="Texture2D" uid="uid://bwmqgora8jdbi" path="res://assets/NPC/GuildTrainer/861.svg" id="41_m65xc"]
+[ext_resource type="Texture2D" uid="uid://d38ttrhqnk0ct" path="res://assets/NPC/GuildTrainer/862.svg" id="42_cq0xs"]
+[ext_resource type="Texture2D" uid="uid://3e35vnj6x6uw" path="res://assets/NPC/GuildTrainer/863.svg" id="43_mssi3"]
+[ext_resource type="Texture2D" uid="uid://b6vqaegw8jvo1" path="res://assets/NPC/GuildTrainer/864.svg" id="44_lqvpx"]
+[ext_resource type="Texture2D" uid="uid://dqjg0g75i68w7" path="res://assets/NPC/GuildTrainer/865.svg" id="45_mp472"]
+[ext_resource type="Texture2D" uid="uid://gn25j0fm1o6j" path="res://assets/NPC/GuildTrainer/866.svg" id="46_oufrc"]
+[ext_resource type="Texture2D" uid="uid://dqsjvdqs7djbr" path="res://assets/NPC/GuildTrainer/867.svg" id="47_i57qm"]
+[ext_resource type="Texture2D" uid="uid://de4nnmweg6ews" path="res://assets/NPC/GuildTrainer/868.svg" id="48_8r0vl"]
+[ext_resource type="Texture2D" uid="uid://bu2sd4uyxc3hv" path="res://assets/NPC/GuildTrainer/869.svg" id="49_drwdv"]
+[ext_resource type="Texture2D" uid="uid://6jdy0rbqbh0q" path="res://assets/NPC/GuildTrainer/870.svg" id="50_5xa3g"]
+[ext_resource type="Texture2D" uid="uid://f0k728c8i20g" path="res://assets/NPC/GuildTrainer/871.svg" id="51_xyyhr"]
+[ext_resource type="Texture2D" uid="uid://dviuak2myuul0" path="res://assets/NPC/GuildTrainer/872.svg" id="52_lswf3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j7dyd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_r0ere")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_6p7t4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_wfckq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_s5a30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_11n5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dru4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ysb2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_klta3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_4kjvt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_sl578")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0qtqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_s6foe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_j1xg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_eg6g7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_gm0tt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_nudmt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_o6tmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bcf4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_7igni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_u6ypu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_jarn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_li4bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_yf64o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_uj8qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_wy854")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_fk5hk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_dwvv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_x6iot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_iods7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_q3ta0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_jvd1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_w414u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_unelk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_vcf3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_fknvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_haecn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_5j0vr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_yex7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_gc0sn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_dikom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_m65xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_cq0xs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_mssi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_lqvpx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_mp472")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_oufrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_i57qm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_8r0vl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_drwdv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_5xa3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_xyyhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_lswf3")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 30.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n2516"]
+size = Vector2(193, 211)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+slide_on_ceiling = false
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(447, 249)
+sprite_frames = SubResource("SpriteFrames_j7dyd")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.448428
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(442.5, 162)
+shape = SubResource("RectangleShape2D_n2516")
+disabled = true

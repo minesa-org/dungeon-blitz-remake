@@ -1,0 +1,234 @@
+[gd_scene load_steps=55 format=3 uid="uid://2g6431m1noud"]
+
+[ext_resource type="Texture2D" uid="uid://ouc3ti0t76vc" path="res://assets/NPC/Wolf'sTail/767.png" id="1_e1li4"]
+[ext_resource type="Texture2D" uid="uid://sae4kcckq18q" path="res://assets/NPC/Wolf'sTail/768.png" id="2_pysdk"]
+[ext_resource type="Texture2D" uid="uid://kof2lyvdrbg8" path="res://assets/NPC/Wolf'sTail/769.png" id="3_dx6rh"]
+[ext_resource type="Texture2D" uid="uid://d61xpbrw1xle" path="res://assets/NPC/Wolf'sTail/770.png" id="4_xur64"]
+[ext_resource type="Texture2D" uid="uid://bi11o3gsqby1v" path="res://assets/NPC/Wolf'sTail/771.png" id="5_g1fmd"]
+[ext_resource type="Texture2D" uid="uid://b4okcloxly72q" path="res://assets/NPC/Wolf'sTail/772.png" id="6_cl0ik"]
+[ext_resource type="Texture2D" uid="uid://6haigctqqv5h" path="res://assets/NPC/Wolf'sTail/773.png" id="7_vuybj"]
+[ext_resource type="Texture2D" uid="uid://dho5fmc4bysxa" path="res://assets/NPC/Wolf'sTail/774.png" id="8_rff6w"]
+[ext_resource type="Texture2D" uid="uid://r81noop1uyh1" path="res://assets/NPC/Wolf'sTail/775.png" id="9_gfixp"]
+[ext_resource type="Texture2D" uid="uid://cn0shetvnj5ft" path="res://assets/NPC/Wolf'sTail/776.png" id="10_5j0lq"]
+[ext_resource type="Texture2D" uid="uid://cxha7o53seqlf" path="res://assets/NPC/Wolf'sTail/777.png" id="11_ycytl"]
+[ext_resource type="Texture2D" uid="uid://dtjgo0xi1tusc" path="res://assets/NPC/Wolf'sTail/778.png" id="12_tsudr"]
+[ext_resource type="Texture2D" uid="uid://csj1lj05as6s1" path="res://assets/NPC/Wolf'sTail/779.png" id="13_ybfvh"]
+[ext_resource type="Texture2D" uid="uid://dx0a5jy1ph13m" path="res://assets/NPC/Wolf'sTail/780.png" id="14_la87m"]
+[ext_resource type="Texture2D" uid="uid://c5hpeuhe3vf71" path="res://assets/NPC/Wolf'sTail/781.png" id="15_7jc4h"]
+[ext_resource type="Texture2D" uid="uid://cm0wv8dgwkc2i" path="res://assets/NPC/Wolf'sTail/782.png" id="16_p40q4"]
+[ext_resource type="Texture2D" uid="uid://by6kowox7r682" path="res://assets/NPC/Wolf'sTail/783.png" id="17_x12l2"]
+[ext_resource type="Texture2D" uid="uid://bhgd04cmr6td5" path="res://assets/NPC/Wolf'sTail/784.png" id="18_qsddm"]
+[ext_resource type="Texture2D" uid="uid://dbqdupy1l1gus" path="res://assets/NPC/Wolf'sTail/785.png" id="19_w3g36"]
+[ext_resource type="Texture2D" uid="uid://bjyr7q0f50oku" path="res://assets/NPC/Wolf'sTail/786.png" id="20_ugqhl"]
+[ext_resource type="Texture2D" uid="uid://qtxrwgb5d0fn" path="res://assets/NPC/Wolf'sTail/787.png" id="21_feixe"]
+[ext_resource type="Texture2D" uid="uid://bvv0xmb8q0bm2" path="res://assets/NPC/Wolf'sTail/788.png" id="22_kma3l"]
+[ext_resource type="Texture2D" uid="uid://b16pleebycwim" path="res://assets/NPC/Wolf'sTail/789.png" id="23_4ttdu"]
+[ext_resource type="Texture2D" uid="uid://dplkxyo2uhpih" path="res://assets/NPC/Wolf'sTail/790.png" id="24_p0bi6"]
+[ext_resource type="Texture2D" uid="uid://duh6irj1gpot4" path="res://assets/NPC/Wolf'sTail/791.png" id="25_ag106"]
+[ext_resource type="Texture2D" uid="uid://b7kdnyi6qmry8" path="res://assets/NPC/Wolf'sTail/792.png" id="26_dfje6"]
+[ext_resource type="Texture2D" uid="uid://bidwj5dbcpkbe" path="res://assets/NPC/Wolf'sTail/793.png" id="27_en24m"]
+[ext_resource type="Texture2D" uid="uid://dadrj5tm7siqt" path="res://assets/NPC/Wolf'sTail/794.png" id="28_mlxfd"]
+[ext_resource type="Texture2D" uid="uid://btgtnob2xgxiw" path="res://assets/NPC/Wolf'sTail/795.png" id="29_vuwhf"]
+[ext_resource type="Texture2D" uid="uid://nyihkydygakj" path="res://assets/NPC/Wolf'sTail/796.png" id="30_2sc15"]
+[ext_resource type="Texture2D" uid="uid://ct150sl4kli1p" path="res://assets/NPC/Wolf'sTail/797.png" id="31_mel3f"]
+[ext_resource type="Texture2D" uid="uid://bn1vhlu0obde4" path="res://assets/NPC/Wolf'sTail/798.png" id="32_bxp51"]
+[ext_resource type="Texture2D" uid="uid://cwoi2rrtvh724" path="res://assets/NPC/Wolf'sTail/799.png" id="33_4c315"]
+[ext_resource type="Texture2D" uid="uid://bbldiwbvo1fly" path="res://assets/NPC/Wolf'sTail/800.png" id="34_3xuuv"]
+[ext_resource type="Texture2D" uid="uid://dudv1cvfkl780" path="res://assets/NPC/Wolf'sTail/801.png" id="35_mvfdk"]
+[ext_resource type="Texture2D" uid="uid://bg3nijnxs5qla" path="res://assets/NPC/Wolf'sTail/802.png" id="36_pwd10"]
+[ext_resource type="Texture2D" uid="uid://bxukmh0383y0t" path="res://assets/NPC/Wolf'sTail/803.png" id="37_8ug1h"]
+[ext_resource type="Texture2D" uid="uid://cqjochg8x8hoc" path="res://assets/NPC/Wolf'sTail/804.png" id="38_pq6kj"]
+[ext_resource type="Texture2D" uid="uid://djeho2vyofo2r" path="res://assets/NPC/Wolf'sTail/805.png" id="39_63efy"]
+[ext_resource type="Texture2D" uid="uid://bbke73lb2baky" path="res://assets/NPC/Wolf'sTail/806.png" id="40_u8nrv"]
+[ext_resource type="Texture2D" uid="uid://cmqikqc4gswau" path="res://assets/NPC/Wolf'sTail/807.png" id="41_ehiqx"]
+[ext_resource type="Texture2D" uid="uid://cbwpia2l0ynr8" path="res://assets/NPC/Wolf'sTail/808.png" id="42_d281t"]
+[ext_resource type="Texture2D" uid="uid://c88315tckn1q" path="res://assets/NPC/Wolf'sTail/809.png" id="43_x6ucb"]
+[ext_resource type="Texture2D" uid="uid://bf1lwh72883aj" path="res://assets/NPC/Wolf'sTail/810.png" id="44_u4iab"]
+[ext_resource type="Texture2D" uid="uid://ewtvhpuk8rmc" path="res://assets/NPC/Wolf'sTail/811.png" id="45_mjo80"]
+[ext_resource type="Texture2D" uid="uid://vi8r1ll7rw" path="res://assets/NPC/Wolf'sTail/812.png" id="46_xy6bf"]
+[ext_resource type="Texture2D" uid="uid://bfnkcorfej173" path="res://assets/NPC/Wolf'sTail/813.png" id="47_6y7ur"]
+[ext_resource type="Texture2D" uid="uid://dqlq2wt3gycqx" path="res://assets/NPC/Wolf'sTail/814.png" id="48_wa5tu"]
+[ext_resource type="Texture2D" uid="uid://c1rwdnjw4htov" path="res://assets/NPC/Wolf'sTail/815.png" id="49_r68u6"]
+[ext_resource type="Texture2D" uid="uid://vkd8ly26cno7" path="res://assets/NPC/Wolf'sTail/816.png" id="50_3sbjd"]
+[ext_resource type="Texture2D" uid="uid://dler1gfi4u0ap" path="res://assets/NPC/Wolf'sTail/817.png" id="51_o1y7u"]
+[ext_resource type="Texture2D" uid="uid://77g6ouhj3xv7" path="res://assets/NPC/Wolf'sTail/818.png" id="52_sb800"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ryvrt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_e1li4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pysdk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dx6rh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xur64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_g1fmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cl0ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_vuybj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rff6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gfixp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5j0lq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ycytl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_tsudr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ybfvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_la87m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_7jc4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_p40q4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_x12l2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_qsddm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_w3g36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ugqhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_feixe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_kma3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4ttdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_p0bi6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ag106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_dfje6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_en24m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_mlxfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_vuwhf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_2sc15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_mel3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_bxp51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_4c315")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_3xuuv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_mvfdk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_pwd10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_8ug1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_pq6kj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_63efy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_u8nrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ehiqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_d281t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_x6ucb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_u4iab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_mjo80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_xy6bf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_6y7ur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_wa5tu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_r68u6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_3sbjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_o1y7u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_sb800")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wup21"]
+size = Vector2(113, 229.5)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(416, 202)
+sprite_frames = SubResource("SpriteFrames_ryvrt")
+autoplay = "default"
+frame_progress = 0.152873
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(439.5, 129.75)
+shape = SubResource("RectangleShape2D_wup21")
+disabled = true
