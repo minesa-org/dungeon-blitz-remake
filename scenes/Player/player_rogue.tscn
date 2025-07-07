@@ -650,7 +650,7 @@ texture_filter = 1
 position = Vector2(125, -87)
 scale = Vector2(0.768388, 0.763514)
 sprite_frames = SubResource("SpriteFrames_kp0if")
-animation = &"rogue_jump_end"
+animation = &"rogue_ready_loop"
 autoplay = "rogue_ready_loop"
 
 [node name="sfx_jump" type="AudioStreamPlayer" parent="."]

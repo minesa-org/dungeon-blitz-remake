@@ -1,21 +1,20 @@
 [gd_scene load_steps=14 format=3 uid="uid://ckt0c6fp10jdu"]
 
-[ext_resource type="PackedScene" uid="uid://de0dmvb1w4t7x" path="res://scenes/npc_pettrainer.tscn" id="1_0rmfi"]
-[ext_resource type="Texture2D" uid="uid://dy16jijpd5m2t" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_sky.png" id="1_gee14"]
-[ext_resource type="PackedScene" uid="uid://dtcag2jdywot6" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="Texture2D" uid="uid://cl3v3o8b63lee" path="res://assets/Maps/Zones/Level_Home/home_main.svg" id="1_yqjtg"]
-[ext_resource type="Texture2D" uid="uid://vvjdpb6hsw47" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_mountain.png" id="2_0tnpc"]
-[ext_resource type="Texture2D" uid="uid://bua5m3hgbqwkk" path="res://assets/Maps/Zones/Level_Home/herbs.png" id="3_lnu2h"]
-[ext_resource type="Texture2D" uid="uid://caleh6p0dc68a" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_lake.png" id="3_vtaks"]
-[ext_resource type="Texture2D" uid="uid://cnv46iiios7k6" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_gate.png" id="4_kvpfn"]
-[ext_resource type="Texture2D" uid="uid://dnq6qm0iy2otw" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_tree.png" id="5_dinhu"]
-[ext_resource type="PackedScene" uid="uid://dou1u33lhffj2" path="res://scenes/npc_tinker.tscn" id="9_kvuet"]
-[ext_resource type="PackedScene" uid="uid://cycqua6tcpyt5" path="res://scenes/npc_guildtrainer.tscn" id="62_bnuda"]
-[ext_resource type="PackedScene" uid="uid://cjp2m21jic8eq" path="res://scenes/npc_dyealchemist.tscn" id="64_xbak0"]
-[ext_resource type="PackedScene" uid="uid://2g6431m1noud" path="res://scenes/npc_wolf'stail.tscn" id="65_3x28f"]
+[ext_resource type="Texture2D" uid="uid://dy16jijpd5m2t" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_sky.png" id="1_rduww"]
+[ext_resource type="Texture2D" uid="uid://vvjdpb6hsw47" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_mountain.png" id="2_6i3e3"]
+[ext_resource type="Texture2D" uid="uid://caleh6p0dc68a" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_lake.png" id="3_r24pk"]
+[ext_resource type="Texture2D" uid="uid://cnv46iiios7k6" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_gate.png" id="4_d0v1q"]
+[ext_resource type="Texture2D" uid="uid://dnq6qm0iy2otw" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_tree.png" id="5_18pyy"]
+[ext_resource type="Texture2D" uid="uid://cl3v3o8b63lee" path="res://assets/Maps/Zones/Level_Home/home_main.svg" id="6_rmpr7"]
+[ext_resource type="PackedScene" uid="uid://dtcag2jdywot6" path="res://scenes/Player/player_rogue.tscn" id="7_hxbnc"]
+[ext_resource type="Texture2D" uid="uid://bua5m3hgbqwkk" path="res://assets/Maps/Zones/Level_Home/herbs.png" id="8_7mm2k"]
+[ext_resource type="PackedScene" uid="uid://dou1u33lhffj2" path="res://scenes/NPCs/npc_tinker.tscn" id="9_1t1gd"]
+[ext_resource type="PackedScene" uid="uid://cycqua6tcpyt5" path="res://scenes/NPCs/npc_guildtrainer.tscn" id="10_jddtt"]
+[ext_resource type="PackedScene" uid="uid://de0dmvb1w4t7x" path="res://scenes/NPCs/npc_pettrainer.tscn" id="11_67rj2"]
+[ext_resource type="PackedScene" uid="uid://cjp2m21jic8eq" path="res://scenes/NPCs/npc_dyealchemist.tscn" id="12_ty5lm"]
+[ext_resource type="PackedScene" uid="uid://2g6431m1noud" path="res://scenes/NPCs/npc_wolf'stail.tscn" id="13_m7qmi"]
 
 [node name="Game" type="Node2D"]
-position = Vector2(-621, -110)
 
 [node name="MainParallax" type="ParallaxBackground" parent="."]
 
@@ -26,7 +25,7 @@ motion_mirroring = Vector2(1440, 0)
 
 [node name="Sky" type="Sprite2D" parent="MainParallax/SkyParallax"]
 position = Vector2(-243, -127)
-texture = ExtResource("1_gee14")
+texture = ExtResource("1_rduww")
 
 [node name="MountainParallax" type="ParallaxLayer" parent="MainParallax"]
 position = Vector2(-4125, 119)
@@ -35,7 +34,7 @@ motion_mirroring = Vector2(3000, 0)
 
 [node name="Mountain" type="Sprite2D" parent="MainParallax/MountainParallax"]
 position = Vector2(-927, 33)
-texture = ExtResource("2_0tnpc")
+texture = ExtResource("2_6i3e3")
 
 [node name="LakeParallax" type="ParallaxLayer" parent="MainParallax"]
 position = Vector2(-4443, 221)
@@ -43,30 +42,30 @@ motion_scale = Vector2(0.3, 0.3)
 motion_mirroring = Vector2(3000, 0)
 
 [node name="Lake" type="Sprite2D" parent="MainParallax/LakeParallax"]
-texture = ExtResource("3_vtaks")
+texture = ExtResource("3_r24pk")
 
 [node name="GateSkyParallax" type="ParallaxLayer" parent="MainParallax"]
-position = Vector2(433, -379)
-motion_scale = Vector2(0.8, 1)
+position = Vector2(1003, -240)
+motion_scale = Vector2(0.9, 0.9)
 
 [node name="Gate" type="Sprite2D" parent="MainParallax/GateSkyParallax"]
-texture = ExtResource("4_kvpfn")
+texture = ExtResource("4_d0v1q")
 
 [node name="TreeParallax" type="ParallaxLayer" parent="MainParallax"]
-position = Vector2(1362, 54)
-scale = Vector2(1.5, 1.5)
+position = Vector2(1769, 37)
+scale = Vector2(1.6, 1.6)
 motion_scale = Vector2(0.8, 0.8)
 
 [node name="Tree" type="Sprite2D" parent="MainParallax/TreeParallax"]
 position = Vector2(-9, -111)
-texture = ExtResource("5_dinhu")
+texture = ExtResource("5_18pyy")
 
 [node name="TreeParallax2" type="ParallaxLayer" parent="MainParallax"]
 position = Vector2(3856, -229)
 motion_scale = Vector2(0.8, 1)
 
 [node name="Tree" type="Sprite2D" parent="MainParallax/TreeParallax2"]
-texture = ExtResource("5_dinhu")
+texture = ExtResource("5_18pyy")
 
 [node name="Grounds" type="StaticBody2D" parent="."]
 position = Vector2(-212, -117)
@@ -97,21 +96,21 @@ one_way_collision = true
 [node name="Home_CraftTown" type="Sprite2D" parent="."]
 texture_filter = 2
 position = Vector2(218, -142)
-texture = ExtResource("1_yqjtg")
+texture = ExtResource("6_rmpr7")
 
-[node name="Rogue" parent="." instance=ExtResource("1_uwrxv")]
-z_index = 100
-position = Vector2(2010, 60)
+[node name="Rogue" parent="." instance=ExtResource("7_hxbnc")]
+visibility_layer = 256
+position = Vector2(2362, 56)
 scale = Vector2(1.5, 1.5)
 
 [node name="Camera2D" type="Camera2D" parent="Rogue"]
-position = Vector2(106.667, -44.6667)
+position = Vector2(104, -44.6667)
 scale = Vector2(0.666667, 0.666667)
 process_callback = 0
-limit_left = -1100
+limit_left = -500
 limit_top = -725
-limit_right = 4425
-limit_bottom = -50
+limit_right = 5125
+limit_bottom = 60
 limit_smoothed = true
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
@@ -121,39 +120,39 @@ editor_draw_limits = true
 clip_children = 2
 light_mask = 0
 visibility_layer = 512
-position = Vector2(2039, 53)
-texture = ExtResource("3_lnu2h")
+position = Vector2(2036, 26)
+texture = ExtResource("8_7mm2k")
 
 [node name="FirstLayerTreeParallax" type="ParallaxBackground" parent="."]
 layer = 1
 
 [node name="TreeParallax" type="ParallaxLayer" parent="FirstLayerTreeParallax"]
-position = Vector2(-754, 66)
+position = Vector2(-71, 191)
 motion_scale = Vector2(2, 1)
 motion_mirroring = Vector2(3000, 0)
 
 [node name="Tree" type="Sprite2D" parent="FirstLayerTreeParallax/TreeParallax"]
-texture = ExtResource("5_dinhu")
+texture = ExtResource("5_18pyy")
 
 [node name="NPCs" type="CanvasGroup" parent="."]
 
-[node name="Tinker" parent="NPCs" instance=ExtResource("9_kvuet")]
+[node name="Tinker" parent="NPCs" instance=ExtResource("9_1t1gd")]
 position = Vector2(4237, -93)
 
-[node name="GuildTrainer" parent="NPCs" instance=ExtResource("62_bnuda")]
+[node name="GuildTrainer" parent="NPCs" instance=ExtResource("10_jddtt")]
 texture_filter = 1
 position = Vector2(773, -270)
 scale = Vector2(0.5, 0.5)
 safe_margin = 0.001
 
-[node name="PetTrainer" parent="NPCs" instance=ExtResource("1_0rmfi")]
+[node name="PetTrainer" parent="NPCs" instance=ExtResource("11_67rj2")]
 position = Vector2(1238, -205)
 scale = Vector2(0.6, 0.6)
 
-[node name="DyeAlchemist" parent="NPCs" instance=ExtResource("64_xbak0")]
+[node name="DyeAlchemist" parent="NPCs" instance=ExtResource("12_ty5lm")]
 position = Vector2(4602, -139)
 scale = Vector2(0.55, 0.55)
 
-[node name="Wolf\'sTail" parent="NPCs" instance=ExtResource("65_3x28f")]
+[node name="Wolf\'sTail" parent="NPCs" instance=ExtResource("13_m7qmi")]
 position = Vector2(4602, -206)
 scale = Vector2(0.65, 0.65)
