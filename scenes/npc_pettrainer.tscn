@@ -1,0 +1,235 @@
+[gd_scene load_steps=55 format=3 uid="uid://de0dmvb1w4t7x"]
+
+[ext_resource type="Texture2D" uid="uid://dm7xm4oq1i41o" path="res://assets/NPC/PetTrainer/1257.png" id="1_rccg6"]
+[ext_resource type="Texture2D" uid="uid://byo3gp67tqxf5" path="res://assets/NPC/PetTrainer/1258.png" id="2_dgpob"]
+[ext_resource type="Texture2D" uid="uid://dfbscu25m62h0" path="res://assets/NPC/PetTrainer/1259.png" id="3_2ens6"]
+[ext_resource type="Texture2D" uid="uid://bgl3xxsqaoarx" path="res://assets/NPC/PetTrainer/1260.png" id="4_53ye2"]
+[ext_resource type="Texture2D" uid="uid://bbeeyyhhbw7a2" path="res://assets/NPC/PetTrainer/1261.png" id="5_yhp03"]
+[ext_resource type="Texture2D" uid="uid://b1audpqnkynhc" path="res://assets/NPC/PetTrainer/1262.png" id="6_un44m"]
+[ext_resource type="Texture2D" uid="uid://dgesjhfj0y11i" path="res://assets/NPC/PetTrainer/1263.png" id="7_wmv78"]
+[ext_resource type="Texture2D" uid="uid://c4prjokd2xle6" path="res://assets/NPC/PetTrainer/1264.png" id="8_f7r8x"]
+[ext_resource type="Texture2D" uid="uid://chehdam40qe8d" path="res://assets/NPC/PetTrainer/1265.png" id="9_3ntl8"]
+[ext_resource type="Texture2D" uid="uid://ehti064d5q4e" path="res://assets/NPC/PetTrainer/1266.png" id="10_4wvyo"]
+[ext_resource type="Texture2D" uid="uid://c14u4iuonl4jv" path="res://assets/NPC/PetTrainer/1267.png" id="11_6a13t"]
+[ext_resource type="Texture2D" uid="uid://c7782tmhusk3m" path="res://assets/NPC/PetTrainer/1268.png" id="12_k1nj8"]
+[ext_resource type="Texture2D" uid="uid://c45ic2et70gjv" path="res://assets/NPC/PetTrainer/1269.png" id="13_hndkt"]
+[ext_resource type="Texture2D" uid="uid://b0mgs376fk3hk" path="res://assets/NPC/PetTrainer/1270.png" id="14_qkfle"]
+[ext_resource type="Texture2D" uid="uid://blq8ltyvws330" path="res://assets/NPC/PetTrainer/1271.png" id="15_vhi28"]
+[ext_resource type="Texture2D" uid="uid://bneqealxvkmhj" path="res://assets/NPC/PetTrainer/1272.png" id="16_wqj8k"]
+[ext_resource type="Texture2D" uid="uid://dxi7hfu3qn0cb" path="res://assets/NPC/PetTrainer/1273.png" id="17_i7ijn"]
+[ext_resource type="Texture2D" uid="uid://cys60mybod66a" path="res://assets/NPC/PetTrainer/1274.png" id="18_iq2o5"]
+[ext_resource type="Texture2D" uid="uid://dqyx00864pvr4" path="res://assets/NPC/PetTrainer/1275.png" id="19_051j5"]
+[ext_resource type="Texture2D" uid="uid://bp1254562dwdw" path="res://assets/NPC/PetTrainer/1276.png" id="20_mtlou"]
+[ext_resource type="Texture2D" uid="uid://cnwn7lw5cf8yt" path="res://assets/NPC/PetTrainer/1277.png" id="21_8hrsw"]
+[ext_resource type="Texture2D" uid="uid://dq4vht30y7hyb" path="res://assets/NPC/PetTrainer/1278.png" id="22_5chqn"]
+[ext_resource type="Texture2D" uid="uid://dqifmw5rytfxm" path="res://assets/NPC/PetTrainer/1279.png" id="23_33slv"]
+[ext_resource type="Texture2D" uid="uid://bgaqq0kxbtw2p" path="res://assets/NPC/PetTrainer/1280.png" id="24_7882k"]
+[ext_resource type="Texture2D" uid="uid://4tixbn4dmr04" path="res://assets/NPC/PetTrainer/1281.png" id="25_bscnq"]
+[ext_resource type="Texture2D" uid="uid://b6g62fixrobfj" path="res://assets/NPC/PetTrainer/1282.png" id="26_j6x3e"]
+[ext_resource type="Texture2D" uid="uid://ntrhedqkceei" path="res://assets/NPC/PetTrainer/1283.png" id="27_iobyr"]
+[ext_resource type="Texture2D" uid="uid://bntyronqbwbr7" path="res://assets/NPC/PetTrainer/1284.png" id="28_jnl4a"]
+[ext_resource type="Texture2D" uid="uid://du1pskllumla3" path="res://assets/NPC/PetTrainer/1285.png" id="29_jfy1d"]
+[ext_resource type="Texture2D" uid="uid://dijxqfv6f5nhh" path="res://assets/NPC/PetTrainer/1286.png" id="30_4dmuf"]
+[ext_resource type="Texture2D" uid="uid://dya1w5rofb11x" path="res://assets/NPC/PetTrainer/1287.png" id="31_3xdca"]
+[ext_resource type="Texture2D" uid="uid://c0wxanghjykbx" path="res://assets/NPC/PetTrainer/1288.png" id="32_we008"]
+[ext_resource type="Texture2D" uid="uid://bgfanwcjogcfc" path="res://assets/NPC/PetTrainer/1289.png" id="33_4jquq"]
+[ext_resource type="Texture2D" uid="uid://c4gjnhukdotpt" path="res://assets/NPC/PetTrainer/1290.png" id="34_28s8m"]
+[ext_resource type="Texture2D" uid="uid://b6cngnod20yxe" path="res://assets/NPC/PetTrainer/1291.png" id="35_w6nbc"]
+[ext_resource type="Texture2D" uid="uid://b27x6qokr8d7u" path="res://assets/NPC/PetTrainer/1292.png" id="36_f55og"]
+[ext_resource type="Texture2D" uid="uid://b7mw8h1jwkwgx" path="res://assets/NPC/PetTrainer/1293.png" id="37_l8yvl"]
+[ext_resource type="Texture2D" uid="uid://bbenu6v54kn34" path="res://assets/NPC/PetTrainer/1294.png" id="38_rnsy4"]
+[ext_resource type="Texture2D" uid="uid://rkiae6s0p6mr" path="res://assets/NPC/PetTrainer/1295.png" id="39_gerjj"]
+[ext_resource type="Texture2D" uid="uid://c6dbhqe40dx5n" path="res://assets/NPC/PetTrainer/1296.png" id="40_okh2u"]
+[ext_resource type="Texture2D" uid="uid://ci5p7ntdy2hwn" path="res://assets/NPC/PetTrainer/1297.png" id="41_f2yc4"]
+[ext_resource type="Texture2D" uid="uid://70d4epspqd8x" path="res://assets/NPC/PetTrainer/1298.png" id="42_yc604"]
+[ext_resource type="Texture2D" uid="uid://u00wyi7b15iv" path="res://assets/NPC/PetTrainer/1299.png" id="43_d4pex"]
+[ext_resource type="Texture2D" uid="uid://bto6foowrceq0" path="res://assets/NPC/PetTrainer/1300.png" id="44_eof58"]
+[ext_resource type="Texture2D" uid="uid://dg1xqe0l6lb4u" path="res://assets/NPC/PetTrainer/1301.png" id="45_84gbq"]
+[ext_resource type="Texture2D" uid="uid://bqi7yolnr57ou" path="res://assets/NPC/PetTrainer/1302.png" id="46_h362a"]
+[ext_resource type="Texture2D" uid="uid://cvol11bv2fkk0" path="res://assets/NPC/PetTrainer/1303.png" id="47_ky5im"]
+[ext_resource type="Texture2D" uid="uid://b45b6tf4kn1li" path="res://assets/NPC/PetTrainer/1304.png" id="48_8gh0a"]
+[ext_resource type="Texture2D" uid="uid://bbog3uc3gq15b" path="res://assets/NPC/PetTrainer/1305.png" id="49_ff565"]
+[ext_resource type="Texture2D" uid="uid://vgf5vib80ujn" path="res://assets/NPC/PetTrainer/1306.png" id="50_1iu6p"]
+[ext_resource type="Texture2D" uid="uid://b17cbn3tuqdxa" path="res://assets/NPC/PetTrainer/1307.png" id="51_r3vbp"]
+[ext_resource type="Texture2D" uid="uid://b87csg2uy1r7p" path="res://assets/NPC/PetTrainer/1308.png" id="52_7bolg"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_56m52"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_rccg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dgpob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2ens6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_53ye2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yhp03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_un44m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_wmv78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_f7r8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_3ntl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_4wvyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_6a13t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_k1nj8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_hndkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_qkfle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_vhi28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_wqj8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_i7ijn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_iq2o5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_051j5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_mtlou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_8hrsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5chqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_33slv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_7882k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_bscnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_j6x3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_iobyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_jnl4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_jfy1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_4dmuf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_3xdca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_we008")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_4jquq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_28s8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_w6nbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_f55og")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_l8yvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_rnsy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_gerjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_okh2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_f2yc4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_yc604")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_d4pex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_eof58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_84gbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_h362a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_ky5im")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_8gh0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_ff565")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_1iu6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_r3vbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7bolg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mbfam"]
+size = Vector2(120, 229.75)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+slide_on_ceiling = false
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(431, 185)
+sprite_frames = SubResource("SpriteFrames_56m52")
+autoplay = "default"
+frame_progress = 0.520622
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(447, 92)
+shape = SubResource("RectangleShape2D_mbfam")
+disabled = true

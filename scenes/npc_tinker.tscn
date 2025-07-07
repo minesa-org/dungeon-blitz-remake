@@ -1,0 +1,235 @@
+[gd_scene load_steps=55 format=3 uid="uid://dou1u33lhffj2"]
+
+[ext_resource type="Texture2D" uid="uid://b32aerrl4q4w7" path="res://assets/NPC/Tinker/1419.png" id="1_gdodg"]
+[ext_resource type="Texture2D" uid="uid://do6g88wt1rhyb" path="res://assets/NPC/Tinker/1420.png" id="2_vfe71"]
+[ext_resource type="Texture2D" uid="uid://jytmwc55vrxm" path="res://assets/NPC/Tinker/1421.png" id="3_vcqsu"]
+[ext_resource type="Texture2D" uid="uid://dpijtiv7ewruw" path="res://assets/NPC/Tinker/1422.png" id="4_hn7hb"]
+[ext_resource type="Texture2D" uid="uid://mf4rrnanffye" path="res://assets/NPC/Tinker/1423.png" id="5_s1m5o"]
+[ext_resource type="Texture2D" uid="uid://xgti1al48p0l" path="res://assets/NPC/Tinker/1424.png" id="6_4jhg3"]
+[ext_resource type="Texture2D" uid="uid://cd5llfax1mlnm" path="res://assets/NPC/Tinker/1425.png" id="7_bie2j"]
+[ext_resource type="Texture2D" uid="uid://ds1to5u0khh33" path="res://assets/NPC/Tinker/1426.png" id="8_mffvl"]
+[ext_resource type="Texture2D" uid="uid://bkhyemjglqxrw" path="res://assets/NPC/Tinker/1427.png" id="9_ndlge"]
+[ext_resource type="Texture2D" uid="uid://bh41uc40030tu" path="res://assets/NPC/Tinker/1428.png" id="10_8swd2"]
+[ext_resource type="Texture2D" uid="uid://dmtwvkmnuhoc4" path="res://assets/NPC/Tinker/1429.png" id="11_kw70f"]
+[ext_resource type="Texture2D" uid="uid://daxoofijnb7kq" path="res://assets/NPC/Tinker/1430.png" id="12_a5vm1"]
+[ext_resource type="Texture2D" uid="uid://cg27jjhcc6mfp" path="res://assets/NPC/Tinker/1431.png" id="13_be6y5"]
+[ext_resource type="Texture2D" uid="uid://v65o4i4gq7n7" path="res://assets/NPC/Tinker/1432.png" id="14_5tu3e"]
+[ext_resource type="Texture2D" uid="uid://cs62vp7uqffwy" path="res://assets/NPC/Tinker/1433.png" id="15_ubpwb"]
+[ext_resource type="Texture2D" uid="uid://tu023voihu0f" path="res://assets/NPC/Tinker/1434.png" id="16_nayxn"]
+[ext_resource type="Texture2D" uid="uid://c6hivkxnfyh6g" path="res://assets/NPC/Tinker/1435.png" id="17_j4yga"]
+[ext_resource type="Texture2D" uid="uid://xc0tebcbosyk" path="res://assets/NPC/Tinker/1436.png" id="18_g0ncf"]
+[ext_resource type="Texture2D" uid="uid://cy6n1ekxafqnq" path="res://assets/NPC/Tinker/1437.png" id="19_x865q"]
+[ext_resource type="Texture2D" uid="uid://dx7mp41f7hj0x" path="res://assets/NPC/Tinker/1438.png" id="20_6fynn"]
+[ext_resource type="Texture2D" uid="uid://qf7mvjacwd6o" path="res://assets/NPC/Tinker/1439.png" id="21_fx3df"]
+[ext_resource type="Texture2D" uid="uid://2gioeywigvoj" path="res://assets/NPC/Tinker/1440.png" id="22_tbr3j"]
+[ext_resource type="Texture2D" uid="uid://tnba55xqw7bx" path="res://assets/NPC/Tinker/1441.png" id="23_ushyh"]
+[ext_resource type="Texture2D" uid="uid://xauvggu4igpx" path="res://assets/NPC/Tinker/1442.png" id="24_shdxw"]
+[ext_resource type="Texture2D" uid="uid://deiw4pdpgv85f" path="res://assets/NPC/Tinker/1443.png" id="25_irlk3"]
+[ext_resource type="Texture2D" uid="uid://b0l2ieo55i5b5" path="res://assets/NPC/Tinker/1444.png" id="26_pqoms"]
+[ext_resource type="Texture2D" uid="uid://dh8gqis02piea" path="res://assets/NPC/Tinker/1445.png" id="27_w5433"]
+[ext_resource type="Texture2D" uid="uid://b4apbo32gt3ij" path="res://assets/NPC/Tinker/1446.png" id="28_6ghl8"]
+[ext_resource type="Texture2D" uid="uid://ujhlkg4hvvr" path="res://assets/NPC/Tinker/1447.png" id="29_2e5m1"]
+[ext_resource type="Texture2D" uid="uid://bt28qtglegmms" path="res://assets/NPC/Tinker/1448.png" id="30_y2o35"]
+[ext_resource type="Texture2D" uid="uid://c2ofycb1dhqro" path="res://assets/NPC/Tinker/1449.png" id="31_dns81"]
+[ext_resource type="Texture2D" uid="uid://djsrg2xjfkk1b" path="res://assets/NPC/Tinker/1450.png" id="32_gkxpq"]
+[ext_resource type="Texture2D" uid="uid://bx5ffwr5axp8s" path="res://assets/NPC/Tinker/1451.png" id="33_5try0"]
+[ext_resource type="Texture2D" uid="uid://m16p5kbg6n42" path="res://assets/NPC/Tinker/1452.png" id="34_xglqh"]
+[ext_resource type="Texture2D" uid="uid://c6om82ev5tgsa" path="res://assets/NPC/Tinker/1453.png" id="35_7y1ag"]
+[ext_resource type="Texture2D" uid="uid://chi8qidvfe5pr" path="res://assets/NPC/Tinker/1454.png" id="36_k5pqt"]
+[ext_resource type="Texture2D" uid="uid://bvsrp2e8w5i88" path="res://assets/NPC/Tinker/1455.png" id="37_4qdbx"]
+[ext_resource type="Texture2D" uid="uid://85hkpvnhcvwd" path="res://assets/NPC/Tinker/1456.png" id="38_ejr6u"]
+[ext_resource type="Texture2D" uid="uid://divkqc64t2q0b" path="res://assets/NPC/Tinker/1457.png" id="39_kgnkw"]
+[ext_resource type="Texture2D" uid="uid://bjcuvv7wn2sb" path="res://assets/NPC/Tinker/1458.png" id="40_gs5g4"]
+[ext_resource type="Texture2D" uid="uid://cava11h7jcpsw" path="res://assets/NPC/Tinker/1459.png" id="41_o1jdg"]
+[ext_resource type="Texture2D" uid="uid://difg2cdad754k" path="res://assets/NPC/Tinker/1460.png" id="42_jmu3u"]
+[ext_resource type="Texture2D" uid="uid://cfpj83e3mc81c" path="res://assets/NPC/Tinker/1461.png" id="43_kr0em"]
+[ext_resource type="Texture2D" uid="uid://dg3cryslu2a6l" path="res://assets/NPC/Tinker/1462.png" id="44_d0ttl"]
+[ext_resource type="Texture2D" uid="uid://bmcp6xff7bd3m" path="res://assets/NPC/Tinker/1463.png" id="45_uxh4t"]
+[ext_resource type="Texture2D" uid="uid://bch2q4jjlnjvl" path="res://assets/NPC/Tinker/1464.png" id="46_wsa5u"]
+[ext_resource type="Texture2D" uid="uid://b7mbejmt5pbsx" path="res://assets/NPC/Tinker/1465.png" id="47_0c4xl"]
+[ext_resource type="Texture2D" uid="uid://d2dhl85x086y" path="res://assets/NPC/Tinker/1466.png" id="48_3nh02"]
+[ext_resource type="Texture2D" uid="uid://ornkrwfsoxop" path="res://assets/NPC/Tinker/1467.png" id="49_47h8b"]
+[ext_resource type="Texture2D" uid="uid://dand05silb02e" path="res://assets/NPC/Tinker/1468.png" id="50_fvpdh"]
+[ext_resource type="Texture2D" uid="uid://bsuhrsb6c6mwp" path="res://assets/NPC/Tinker/1469.png" id="51_i8yjf"]
+[ext_resource type="Texture2D" uid="uid://df882c1d22pcc" path="res://assets/NPC/Tinker/1470.png" id="52_l2xwc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_56qo5"]
+size = Vector2(243, 193)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yi7bu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_gdodg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_vfe71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vcqsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hn7hb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_s1m5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_4jhg3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bie2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_mffvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ndlge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_8swd2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_kw70f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_a5vm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_be6y5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5tu3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ubpwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_nayxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_j4yga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_g0ncf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_x865q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_6fynn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_fx3df")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_tbr3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ushyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_shdxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_irlk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_pqoms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_w5433")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_6ghl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_2e5m1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_y2o35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_dns81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_gkxpq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_5try0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_xglqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_7y1ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_k5pqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_4qdbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ejr6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_kgnkw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_gs5g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_o1jdg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_jmu3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_kr0em")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_d0ttl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_uxh4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_wsa5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_0c4xl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_3nh02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_47h8b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_fvpdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_i8yjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_l2xwc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[node name="Tinker" type="CharacterBody2D"]
+position = Vector2(477, 308)
+scale = Vector2(0.6, 0.6)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4.5, -75.5)
+shape = SubResource("RectangleShape2D_56qo5")
+disabled = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_yi7bu")
+autoplay = "default"
+frame_progress = 0.276788

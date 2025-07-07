@@ -1,0 +1,7 @@
+*.md           @minesa-org/game-development
+*.gd           @minesa-org/game-development
+docs/*         @minesa-org/game-development
+assets/*       @minesa-org/game-development
+Game.tscn      @minesa-org/game-development
+
+*              @Neodevils
