@@ -1,4 +1,4 @@
-[gd_scene load_steps=67 format=3 uid="uid://ckt0c6fp10jdu"]
+[gd_scene load_steps=14 format=3 uid="uid://ckt0c6fp10jdu"]
 
 [ext_resource type="PackedScene" uid="uid://de0dmvb1w4t7x" path="res://scenes/npc_pettrainer.tscn" id="1_0rmfi"]
 [ext_resource type="Texture2D" uid="uid://dy16jijpd5m2t" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_sky.png" id="1_gee14"]
@@ -9,320 +9,102 @@
 [ext_resource type="Texture2D" uid="uid://caleh6p0dc68a" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_lake.png" id="3_vtaks"]
 [ext_resource type="Texture2D" uid="uid://cnv46iiios7k6" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_gate.png" id="4_kvpfn"]
 [ext_resource type="Texture2D" uid="uid://dnq6qm0iy2otw" path="res://assets/Maps/Zones/Level_Home/parallax/parallax_tree.png" id="5_dinhu"]
-[ext_resource type="Texture2D" uid="uid://b32aerrl4q4w7" path="res://assets/NPC/Tinker/1419.png" id="10_66xif"]
-[ext_resource type="Texture2D" uid="uid://do6g88wt1rhyb" path="res://assets/NPC/Tinker/1420.png" id="11_bnuda"]
-[ext_resource type="Texture2D" uid="uid://jytmwc55vrxm" path="res://assets/NPC/Tinker/1421.png" id="12_0rmfi"]
-[ext_resource type="Texture2D" uid="uid://dpijtiv7ewruw" path="res://assets/NPC/Tinker/1422.png" id="13_xbak0"]
-[ext_resource type="Texture2D" uid="uid://mf4rrnanffye" path="res://assets/NPC/Tinker/1423.png" id="14_3x28f"]
-[ext_resource type="Texture2D" uid="uid://xgti1al48p0l" path="res://assets/NPC/Tinker/1424.png" id="15_l6q63"]
-[ext_resource type="Texture2D" uid="uid://cd5llfax1mlnm" path="res://assets/NPC/Tinker/1425.png" id="16_mmvbu"]
-[ext_resource type="Texture2D" uid="uid://ds1to5u0khh33" path="res://assets/NPC/Tinker/1426.png" id="17_weeiq"]
-[ext_resource type="Texture2D" uid="uid://bkhyemjglqxrw" path="res://assets/NPC/Tinker/1427.png" id="18_uxocx"]
-[ext_resource type="Texture2D" uid="uid://bh41uc40030tu" path="res://assets/NPC/Tinker/1428.png" id="19_7nv0b"]
-[ext_resource type="Texture2D" uid="uid://dmtwvkmnuhoc4" path="res://assets/NPC/Tinker/1429.png" id="20_o8oq8"]
-[ext_resource type="Texture2D" uid="uid://daxoofijnb7kq" path="res://assets/NPC/Tinker/1430.png" id="21_sxt1d"]
-[ext_resource type="Texture2D" uid="uid://cg27jjhcc6mfp" path="res://assets/NPC/Tinker/1431.png" id="22_2iuns"]
-[ext_resource type="Texture2D" uid="uid://v65o4i4gq7n7" path="res://assets/NPC/Tinker/1432.png" id="23_7gkqi"]
-[ext_resource type="Texture2D" uid="uid://cs62vp7uqffwy" path="res://assets/NPC/Tinker/1433.png" id="24_753oq"]
-[ext_resource type="Texture2D" uid="uid://tu023voihu0f" path="res://assets/NPC/Tinker/1434.png" id="25_3x338"]
-[ext_resource type="Texture2D" uid="uid://c6hivkxnfyh6g" path="res://assets/NPC/Tinker/1435.png" id="26_1yg85"]
-[ext_resource type="Texture2D" uid="uid://xc0tebcbosyk" path="res://assets/NPC/Tinker/1436.png" id="27_s0g06"]
-[ext_resource type="Texture2D" uid="uid://cy6n1ekxafqnq" path="res://assets/NPC/Tinker/1437.png" id="28_2gnni"]
-[ext_resource type="Texture2D" uid="uid://dx7mp41f7hj0x" path="res://assets/NPC/Tinker/1438.png" id="29_vgxg3"]
-[ext_resource type="Texture2D" uid="uid://qf7mvjacwd6o" path="res://assets/NPC/Tinker/1439.png" id="30_4nbsr"]
-[ext_resource type="Texture2D" uid="uid://2gioeywigvoj" path="res://assets/NPC/Tinker/1440.png" id="31_fkywm"]
-[ext_resource type="Texture2D" uid="uid://tnba55xqw7bx" path="res://assets/NPC/Tinker/1441.png" id="32_dku7i"]
-[ext_resource type="Texture2D" uid="uid://xauvggu4igpx" path="res://assets/NPC/Tinker/1442.png" id="33_veaf0"]
-[ext_resource type="Texture2D" uid="uid://deiw4pdpgv85f" path="res://assets/NPC/Tinker/1443.png" id="34_flw08"]
-[ext_resource type="Texture2D" uid="uid://b0l2ieo55i5b5" path="res://assets/NPC/Tinker/1444.png" id="35_84hbc"]
-[ext_resource type="Texture2D" uid="uid://dh8gqis02piea" path="res://assets/NPC/Tinker/1445.png" id="36_15b3c"]
-[ext_resource type="Texture2D" uid="uid://b4apbo32gt3ij" path="res://assets/NPC/Tinker/1446.png" id="37_veukt"]
-[ext_resource type="Texture2D" uid="uid://ujhlkg4hvvr" path="res://assets/NPC/Tinker/1447.png" id="38_nbjts"]
-[ext_resource type="Texture2D" uid="uid://bt28qtglegmms" path="res://assets/NPC/Tinker/1448.png" id="39_i1hsc"]
-[ext_resource type="Texture2D" uid="uid://c2ofycb1dhqro" path="res://assets/NPC/Tinker/1449.png" id="40_ounyb"]
-[ext_resource type="Texture2D" uid="uid://djsrg2xjfkk1b" path="res://assets/NPC/Tinker/1450.png" id="41_iekjf"]
-[ext_resource type="Texture2D" uid="uid://bx5ffwr5axp8s" path="res://assets/NPC/Tinker/1451.png" id="42_okmmv"]
-[ext_resource type="Texture2D" uid="uid://m16p5kbg6n42" path="res://assets/NPC/Tinker/1452.png" id="43_ja1h7"]
-[ext_resource type="Texture2D" uid="uid://c6om82ev5tgsa" path="res://assets/NPC/Tinker/1453.png" id="44_p4npv"]
-[ext_resource type="Texture2D" uid="uid://chi8qidvfe5pr" path="res://assets/NPC/Tinker/1454.png" id="45_xjcjm"]
-[ext_resource type="Texture2D" uid="uid://bvsrp2e8w5i88" path="res://assets/NPC/Tinker/1455.png" id="46_tc8uq"]
-[ext_resource type="Texture2D" uid="uid://85hkpvnhcvwd" path="res://assets/NPC/Tinker/1456.png" id="47_h5tdf"]
-[ext_resource type="Texture2D" uid="uid://divkqc64t2q0b" path="res://assets/NPC/Tinker/1457.png" id="48_xbifu"]
-[ext_resource type="Texture2D" uid="uid://bjcuvv7wn2sb" path="res://assets/NPC/Tinker/1458.png" id="49_gdf8r"]
-[ext_resource type="Texture2D" uid="uid://cava11h7jcpsw" path="res://assets/NPC/Tinker/1459.png" id="50_x8trd"]
-[ext_resource type="Texture2D" uid="uid://difg2cdad754k" path="res://assets/NPC/Tinker/1460.png" id="51_s33c4"]
-[ext_resource type="Texture2D" uid="uid://cfpj83e3mc81c" path="res://assets/NPC/Tinker/1461.png" id="52_3hv4c"]
-[ext_resource type="Texture2D" uid="uid://dg3cryslu2a6l" path="res://assets/NPC/Tinker/1462.png" id="53_vniw0"]
-[ext_resource type="Texture2D" uid="uid://bmcp6xff7bd3m" path="res://assets/NPC/Tinker/1463.png" id="54_lddog"]
-[ext_resource type="Texture2D" uid="uid://bch2q4jjlnjvl" path="res://assets/NPC/Tinker/1464.png" id="55_boxkr"]
-[ext_resource type="Texture2D" uid="uid://b7mbejmt5pbsx" path="res://assets/NPC/Tinker/1465.png" id="56_de5we"]
-[ext_resource type="Texture2D" uid="uid://d2dhl85x086y" path="res://assets/NPC/Tinker/1466.png" id="57_8tghg"]
-[ext_resource type="Texture2D" uid="uid://ornkrwfsoxop" path="res://assets/NPC/Tinker/1467.png" id="58_473mq"]
-[ext_resource type="Texture2D" uid="uid://dand05silb02e" path="res://assets/NPC/Tinker/1468.png" id="59_1va0p"]
-[ext_resource type="Texture2D" uid="uid://bsuhrsb6c6mwp" path="res://assets/NPC/Tinker/1469.png" id="60_2tvof"]
-[ext_resource type="Texture2D" uid="uid://df882c1d22pcc" path="res://assets/NPC/Tinker/1470.png" id="61_fsry6"]
+[ext_resource type="PackedScene" uid="uid://dou1u33lhffj2" path="res://scenes/npc_tinker.tscn" id="9_kvuet"]
 [ext_resource type="PackedScene" uid="uid://cycqua6tcpyt5" path="res://scenes/npc_guildtrainer.tscn" id="62_bnuda"]
 [ext_resource type="PackedScene" uid="uid://cjp2m21jic8eq" path="res://scenes/npc_dyealchemist.tscn" id="64_xbak0"]
 [ext_resource type="PackedScene" uid="uid://2g6431m1noud" path="res://scenes/npc_wolf'stail.tscn" id="65_3x28f"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_eky20"]
-size = Vector2(243, 193)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_o3ulk"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("10_66xif")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_bnuda")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_0rmfi")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_xbak0")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_3x28f")
-}, {
-"duration": 1.0,
-"texture": ExtResource("15_l6q63")
-}, {
-"duration": 1.0,
-"texture": ExtResource("16_mmvbu")
-}, {
-"duration": 1.0,
-"texture": ExtResource("17_weeiq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("18_uxocx")
-}, {
-"duration": 1.0,
-"texture": ExtResource("19_7nv0b")
-}, {
-"duration": 1.0,
-"texture": ExtResource("20_o8oq8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("21_sxt1d")
-}, {
-"duration": 1.0,
-"texture": ExtResource("22_2iuns")
-}, {
-"duration": 1.0,
-"texture": ExtResource("23_7gkqi")
-}, {
-"duration": 1.0,
-"texture": ExtResource("24_753oq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("25_3x338")
-}, {
-"duration": 1.0,
-"texture": ExtResource("26_1yg85")
-}, {
-"duration": 1.0,
-"texture": ExtResource("27_s0g06")
-}, {
-"duration": 1.0,
-"texture": ExtResource("28_2gnni")
-}, {
-"duration": 1.0,
-"texture": ExtResource("29_vgxg3")
-}, {
-"duration": 1.0,
-"texture": ExtResource("30_4nbsr")
-}, {
-"duration": 1.0,
-"texture": ExtResource("31_fkywm")
-}, {
-"duration": 1.0,
-"texture": ExtResource("32_dku7i")
-}, {
-"duration": 1.0,
-"texture": ExtResource("33_veaf0")
-}, {
-"duration": 1.0,
-"texture": ExtResource("34_flw08")
-}, {
-"duration": 1.0,
-"texture": ExtResource("35_84hbc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("36_15b3c")
-}, {
-"duration": 1.0,
-"texture": ExtResource("37_veukt")
-}, {
-"duration": 1.0,
-"texture": ExtResource("38_nbjts")
-}, {
-"duration": 1.0,
-"texture": ExtResource("39_i1hsc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("40_ounyb")
-}, {
-"duration": 1.0,
-"texture": ExtResource("41_iekjf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("42_okmmv")
-}, {
-"duration": 1.0,
-"texture": ExtResource("43_ja1h7")
-}, {
-"duration": 1.0,
-"texture": ExtResource("44_p4npv")
-}, {
-"duration": 1.0,
-"texture": ExtResource("45_xjcjm")
-}, {
-"duration": 1.0,
-"texture": ExtResource("46_tc8uq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("47_h5tdf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("48_xbifu")
-}, {
-"duration": 1.0,
-"texture": ExtResource("49_gdf8r")
-}, {
-"duration": 1.0,
-"texture": ExtResource("50_x8trd")
-}, {
-"duration": 1.0,
-"texture": ExtResource("51_s33c4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("52_3hv4c")
-}, {
-"duration": 1.0,
-"texture": ExtResource("53_vniw0")
-}, {
-"duration": 1.0,
-"texture": ExtResource("54_lddog")
-}, {
-"duration": 1.0,
-"texture": ExtResource("55_boxkr")
-}, {
-"duration": 1.0,
-"texture": ExtResource("56_de5we")
-}, {
-"duration": 1.0,
-"texture": ExtResource("57_8tghg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("58_473mq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("59_1va0p")
-}, {
-"duration": 1.0,
-"texture": ExtResource("60_2tvof")
-}, {
-"duration": 1.0,
-"texture": ExtResource("61_fsry6")
-}],
-"loop": true,
-"name": &"default",
-"speed": 30.0
-}]
-
 [node name="Game" type="Node2D"]
 position = Vector2(-621, -110)
 
-[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+[node name="MainParallax" type="ParallaxBackground" parent="."]
 
-[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+[node name="SkyParallax" type="ParallaxLayer" parent="MainParallax"]
 position = Vector2(-4507, 212)
 motion_scale = Vector2(0.1, 0.1)
 motion_mirroring = Vector2(1440, 0)
 
-[node name="Sky" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+[node name="Sky" type="Sprite2D" parent="MainParallax/SkyParallax"]
 position = Vector2(-243, -127)
 texture = ExtResource("1_gee14")
 
-[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+[node name="MountainParallax" type="ParallaxLayer" parent="MainParallax"]
 position = Vector2(-4125, 119)
 motion_scale = Vector2(0.2, 0.2)
 motion_mirroring = Vector2(3000, 0)
 
-[node name="Mountain" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+[node name="Mountain" type="Sprite2D" parent="MainParallax/MountainParallax"]
 position = Vector2(-927, 33)
 texture = ExtResource("2_0tnpc")
 
-[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(-4504, 300)
+[node name="LakeParallax" type="ParallaxLayer" parent="MainParallax"]
+position = Vector2(-4443, 221)
 motion_scale = Vector2(0.3, 0.3)
 motion_mirroring = Vector2(3000, 0)
 
-[node name="Lake" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+[node name="Lake" type="Sprite2D" parent="MainParallax/LakeParallax"]
 texture = ExtResource("3_vtaks")
 
-[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+[node name="GateSkyParallax" type="ParallaxLayer" parent="MainParallax"]
 position = Vector2(433, -379)
 motion_scale = Vector2(0.8, 1)
 
-[node name="Gate" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+[node name="Gate" type="Sprite2D" parent="MainParallax/GateSkyParallax"]
 texture = ExtResource("4_kvpfn")
 
-[node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
+[node name="TreeParallax" type="ParallaxLayer" parent="MainParallax"]
 position = Vector2(1362, 54)
 scale = Vector2(1.5, 1.5)
 motion_scale = Vector2(0.8, 0.8)
 
-[node name="Tree" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
+[node name="Tree" type="Sprite2D" parent="MainParallax/TreeParallax"]
 position = Vector2(-9, -111)
 texture = ExtResource("5_dinhu")
 
-[node name="ParallaxLayer6" type="ParallaxLayer" parent="ParallaxBackground"]
+[node name="TreeParallax2" type="ParallaxLayer" parent="MainParallax"]
 position = Vector2(3856, -229)
 motion_scale = Vector2(0.8, 1)
 
-[node name="Tree" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer6"]
+[node name="Tree" type="Sprite2D" parent="MainParallax/TreeParallax2"]
 texture = ExtResource("5_dinhu")
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="Grounds" type="StaticBody2D" parent="."]
 position = Vector2(-212, -117)
 
-[node name="craftTown_path1" type="CollisionPolygon2D" parent="StaticBody2D"]
+[node name="craftTown_path1" type="CollisionPolygon2D" parent="Grounds"]
 position = Vector2(495, 108)
 build_mode = 1
 polygon = PackedVector2Array(-801, -437, -801, -98, -640, -57, -343, -17, -221, -17, -3, -37, 42, -37, 557, 41, 977, 43, 1279, 22, 1438, -17, 1579, -37, 1723, -37, 1895, 41, 2097, 62, 2581, 63, 3115, 43, 3601, 3, 4363, 23, 4519, 23, 4679, -17, 4679, -338)
 one_way_collision_margin = 0.0
 
-[node name="craftTown_path2" type="CollisionPolygon2D" parent="StaticBody2D"]
+[node name="craftTown_path2" type="CollisionPolygon2D" parent="Grounds"]
 position = Vector2(267, 37)
 build_mode = 1
 polygon = PackedVector2Array(-4929, -141, -4929, 399, -4649, 479, -4191, 460, -3654, 401, -3006, 220, -1209, 119, -848, -21, -849, -462)
 one_way_collision_margin = 0.0
 
-[node name="craft_platform" type="CollisionPolygon2D" parent="StaticBody2D"]
+[node name="craft_platform" type="CollisionPolygon2D" parent="Grounds"]
 position = Vector2(326, -45)
 build_mode = 1
 polygon = PackedVector2Array(2911, 61, 2758, 86, 2685, 142, 2638, 169, 2705, 141, 2758, 87)
 one_way_collision = true
 
-[node name="guild_platform" type="CollisionPolygon2D" parent="StaticBody2D"]
+[node name="guild_platform" type="CollisionPolygon2D" parent="Grounds"]
 position = Vector2(307, 8)
 polygon = PackedVector2Array(803, -4, 907, 64, 1006, 96, 911, 63)
 one_way_collision = true
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Home_CraftTown" type="Sprite2D" parent="."]
 texture_filter = 2
 position = Vector2(218, -142)
 texture = ExtResource("1_yqjtg")
 
-[node name="Player" parent="." instance=ExtResource("1_uwrxv")]
+[node name="Rogue" parent="." instance=ExtResource("1_uwrxv")]
 z_index = 100
 position = Vector2(2010, 60)
 scale = Vector2(1.5, 1.5)
 
-[node name="Camera2D" type="Camera2D" parent="Player"]
+[node name="Camera2D" type="Camera2D" parent="Rogue"]
 position = Vector2(106.667, -44.6667)
 scale = Vector2(0.666667, 0.666667)
 process_callback = 0
@@ -342,46 +124,36 @@ visibility_layer = 512
 position = Vector2(2039, 53)
 texture = ExtResource("3_lnu2h")
 
-[node name="Herb parallax background" type="ParallaxBackground" parent="."]
+[node name="FirstLayerTreeParallax" type="ParallaxBackground" parent="."]
 layer = 1
 
-[node name="ParallaxLayer8" type="ParallaxLayer" parent="Herb parallax background"]
+[node name="TreeParallax" type="ParallaxLayer" parent="FirstLayerTreeParallax"]
 position = Vector2(-754, 66)
 motion_scale = Vector2(2, 1)
 motion_mirroring = Vector2(3000, 0)
 
-[node name="Tree" type="Sprite2D" parent="Herb parallax background/ParallaxLayer8"]
+[node name="Tree" type="Sprite2D" parent="FirstLayerTreeParallax/TreeParallax"]
 texture = ExtResource("5_dinhu")
 
-[node name="Tinker" type="CharacterBody2D" parent="."]
-position = Vector2(4237, -92)
-scale = Vector2(0.6, 0.6)
+[node name="NPCs" type="CanvasGroup" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Tinker"]
-position = Vector2(10.0001, -113.333)
-shape = SubResource("RectangleShape2D_eky20")
-disabled = true
+[node name="Tinker" parent="NPCs" instance=ExtResource("9_kvuet")]
+position = Vector2(4237, -93)
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Tinker"]
-sprite_frames = SubResource("SpriteFrames_o3ulk")
-autoplay = "default"
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("62_bnuda")]
+[node name="GuildTrainer" parent="NPCs" instance=ExtResource("62_bnuda")]
 texture_filter = 1
 position = Vector2(773, -270)
 scale = Vector2(0.5, 0.5)
 safe_margin = 0.001
 
-[node name="CharacterBody2D2" parent="." instance=ExtResource("1_0rmfi")]
+[node name="PetTrainer" parent="NPCs" instance=ExtResource("1_0rmfi")]
 position = Vector2(1238, -205)
 scale = Vector2(0.6, 0.6)
 
-[node name="CharacterBody2D" parent="CharacterBody2D2" instance=ExtResource("64_xbak0")]
-y_sort_enabled = true
-position = Vector2(5610, 111.667)
-scale = Vector2(0.9, 0.9)
-slide_on_ceiling = false
+[node name="DyeAlchemist" parent="NPCs" instance=ExtResource("64_xbak0")]
+position = Vector2(4602, -139)
+scale = Vector2(0.55, 0.55)
 
-[node name="CharacterBody2D2" parent="CharacterBody2D2" instance=ExtResource("65_3x28f")]
-position = Vector2(5598.33, -5)
-scale = Vector2(1.1, 1.1)
+[node name="Wolf\'sTail" parent="NPCs" instance=ExtResource("65_3x28f")]
+position = Vector2(4602, -206)
+scale = Vector2(0.65, 0.65)
