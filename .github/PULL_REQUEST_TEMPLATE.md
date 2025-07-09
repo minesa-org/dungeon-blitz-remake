@@ -1,27 +1,26 @@
 <!-- Thank you for your contribution! Please fill out the checklist and details below. -->
-
 ## Description
 
-What does this PR do? Briefly describe the changes and purpose.
+What does this PR change?
 
 ---
 
 ## Related Issue(s)
 
-Link any related issue(s) here (e.g., Closes #42):
+Link related issues (e.g., Closes #42):
 
 ---
 
 ## Checklist
 
-- [ ] The code compiles and runs in Godot.
-- [ ] I tested the changes in the game.
-- [ ] Documentation or comments are updated if necessary.
-- [ ] No unnecessary files are included (e.g., temp files, .import).
-- [ ] I followed the code style and naming conventions.
+- [ ] Code runs in Godot  
+- [ ] Changes tested in game  
+- [ ] Docs/comments updated (if needed)  
+- [ ] No extra files included  
+- [ ] Code style followed  
 
 ---
 
-## Screenshots / Additional Context
+## Screenshots / Notes
 
-If relevant, add screenshots, logs, or any extra info here.
+Add screenshots or extra info if needed.
